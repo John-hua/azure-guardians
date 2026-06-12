@@ -1,0 +1,32 @@
+# 排除不需要部署的文件 (Wrangler / Cloudflare Workers Static Assets)
+.git
+.git/**
+.gitignore
+.gitattributes
+.DS_Store
+
+# 开发文件
+scripts/
+docs/
+prototypes/
+tmp/
+analysis_frames/
+generated_enemy_refs/
+.claude/
+
+# 参考素材
+参考/
+Tiny Swords */
+ASSET_REQUESTS.md
+CLAUDE.md
+*.md
+
+# 大文件
+*.mp4
+*.mov
+!assets/fx/generated/*.mp4
+!assets/units/generated/*.mp4
+
+# 服务器脚本不需要 (静态托管)
+server.py
+*.log

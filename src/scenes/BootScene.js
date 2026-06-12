@@ -207,6 +207,12 @@ export default class BootScene extends Phaser.Scene {
     // 启动主城/选岛(HomeScene),玩家从那里点选岛进入战斗(WorldScene)
     // 在跳转前先把自定义英雄(若有)注册到本 Phaser 全局,后续场景直接可用
     try {
+      // 默认地图注入 — 新玩家/线上首次进游戏时, 把作者预设的地图灌进本地存储
+      // (必须在 hydrate 之前, 因为组件库 hydrate 会读 localStorage)
+      const dmMod = await import('../default-map.js?v=1');
+      if (dmMod.ensureDefaultMap) await dmMod.ensureDefaultMap();
+    } catch (e) { /* ignore — 注入失败不影响游戏 */ }
+    try {
       // 先把 IDB 里的大库灌进内存 (装不下 localStorage 的自定义英雄/敌人)
       const heroMod = await import('../config/hero.js?v=3');
       const enemyMod = await import('../config/enemy.js?v=3');
