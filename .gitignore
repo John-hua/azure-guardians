@@ -52,6 +52,9 @@ scripts/
 # 但保留 generated 目录里的 mp4 (是游戏特效素材)
 !assets/fx/generated/*.mp4
 !assets/units/generated/*.mp4
+# 默认地图的背景视频 + 自定义水晶塔组件 (玩家进游戏要看的)
+!assets/map-videos/
+!assets/map-videos/*.mp4
 
 # Python 脚本临时
 scripts/__pycache__/
