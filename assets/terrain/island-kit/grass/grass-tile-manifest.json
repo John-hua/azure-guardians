@@ -1,0 +1,57 @@
+{
+  "frame_size": [
+    256,
+    256
+  ],
+  "format": "PNG RGBA, terrain pixels fully opaque with real alpha channel present",
+  "tiling": "four-way seamless; variations keep decorations away from borders so mixed tiling stays clean",
+  "reference": "matched warm grass palette from assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-07.png",
+  "files": [
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/grass/grass-tile-base.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "edge_average_delta": 2.48,
+      "edge_max_delta": 63.0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/grass/grass-tile-variation-A.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "edge_average_delta": 2.48,
+      "edge_max_delta": 63.0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/grass/grass-tile-variation-B.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "edge_average_delta": 2.48,
+      "edge_max_delta": 63.0
+    }
+  ],
+  "previews": [
+    "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/grass/grass-tile-base-seam-3x3.png",
+    "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/grass/grass-tile-mixed-seam-3x3.png"
+  ]
+}

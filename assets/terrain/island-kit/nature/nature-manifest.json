@@ -1,0 +1,129 @@
+{
+  "style": "small painterly isometric natural props for island-kit",
+  "transparent_background": true,
+  "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-source.png",
+  "source_alpha": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-source-alpha.png",
+  "files": [
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-mushroom-red.png",
+      "size": [
+        80,
+        80
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-mushroom-brown.png",
+      "size": [
+        72,
+        72
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-mushroom-blue.png",
+      "size": [
+        80,
+        80
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-flower-cluster-A.png",
+      "size": [
+        80,
+        80
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-flower-cluster-B.png",
+      "size": [
+        80,
+        80
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-flower-cluster-C.png",
+      "size": [
+        80,
+        80
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-grass-tuft-A.png",
+      "size": [
+        64,
+        64
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-grass-tuft-B.png",
+      "size": [
+        80,
+        80
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-fallen-log.png",
+      "size": [
+        96,
+        72
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-vines-A.png",
+      "size": [
+        96,
+        64
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0
+    }
+  ],
+  "preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/nature/nature-preview.png"
+}

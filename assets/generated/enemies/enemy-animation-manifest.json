@@ -1,0 +1,132 @@
+{
+  "bone-buckler": {
+    "raw_sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-sheet-raw.png",
+    "clean_hires_sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-sheet-clean-hires.png",
+    "sheet_64": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-sheet-64.png",
+    "grid": {
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "columns": 8,
+      "rows": 4,
+      "fps": 10
+    },
+    "actions": {
+      "idle": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-idle-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-idle.gif",
+        "row": 0
+      },
+      "run": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-run-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-run.gif",
+        "row": 1
+      },
+      "attack": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-attack-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-attack.gif",
+        "row": 2
+      },
+      "utility": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-utility-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/bone-buckler-utility.gif",
+        "row": 3
+      }
+    }
+  },
+  "oarfin-bruiser": {
+    "raw_sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-sheet-raw.png",
+    "clean_hires_sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-sheet-clean-hires.png",
+    "sheet_64": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-sheet-64.png",
+    "grid": {
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "columns": 8,
+      "rows": 4,
+      "fps": 10
+    },
+    "actions": {
+      "idle": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-idle-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-idle.gif",
+        "row": 0
+      },
+      "run": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-run-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-run.gif",
+        "row": 1
+      },
+      "attack": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-attack-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-attack.gif",
+        "row": 2,
+        "recommended": false,
+        "note": "8-frame compatibility version padded from clean6"
+      },
+      "utility": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-utility-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-utility.gif",
+        "row": 3
+      },
+      "attack_clean6": {
+        "frames": 6,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-attack-strip-clean6.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-attack-clean6.gif",
+        "recommended": true,
+        "source": "reordered from generated frames to remove direction flips"
+      },
+      "attack_light_clean6": {
+        "frames": 6,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-attack-light-strip-clean6.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/oarfin-bruiser-attack-light-clean6.gif",
+        "recommended": true,
+        "note": "conservative attack using stable identity frames plus simple slash arc"
+      }
+    }
+  },
+  "boomspike-puffer": {
+    "raw_sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-sheet-raw.png",
+    "clean_hires_sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-sheet-clean-hires.png",
+    "sheet_64": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-sheet-64.png",
+    "grid": {
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "columns": 8,
+      "rows": 4,
+      "fps": 10
+    },
+    "actions": {
+      "idle": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-idle-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-idle.gif",
+        "row": 0
+      },
+      "run": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-run-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-run.gif",
+        "row": 1
+      },
+      "attack": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-attack-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-attack.gif",
+        "row": 2
+      },
+      "utility": {
+        "frames": 8,
+        "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-utility-strip.png",
+        "gif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/generated/enemies/boomspike-puffer-utility.gif",
+        "row": 3
+      }
+    }
+  }
+}

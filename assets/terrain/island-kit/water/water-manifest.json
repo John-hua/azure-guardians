@@ -1,0 +1,38 @@
+{
+  "water-tile.png": {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/water/water-tile.png",
+    "size": [
+      256,
+      256
+    ],
+    "tileable": "four-way seamless",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "edge_average_delta": 6.57,
+    "edge_max_delta": 112.33,
+    "format": "PNG RGBA, fully opaque terrain pixels"
+  },
+  "water-foam-loop-strip.png": {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/water/water-foam-loop-strip.png",
+    "frame_size": [
+      192,
+      64
+    ],
+    "frames": 6,
+    "size": [
+      1152,
+      64
+    ],
+    "alpha_extrema": [
+      0,
+      230
+    ],
+    "looping": "designed for seamless animation loop"
+  },
+  "previews": [
+    "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/water/water-tile-seam-3x3.png",
+    "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/water/water-foam-loop-preview.gif"
+  ]
+}

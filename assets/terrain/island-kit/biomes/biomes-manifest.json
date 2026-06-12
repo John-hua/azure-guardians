@@ -1,0 +1,68 @@
+{
+  "style": "painterly top-down/isometric floor biome textures for island-kit",
+  "size": [
+    512,
+    512
+  ],
+  "tileable": "four-way seamless",
+  "format": "PNG RGBA, fully opaque terrain pixels with alpha channel",
+  "files": [
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biome-forest-floor.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "edge_average_delta": 1.83,
+      "edge_max_delta": 84.67,
+      "seam_preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biome-forest-floor-seam-2x2.png"
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biome-village-floor.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "edge_average_delta": 1.08,
+      "edge_max_delta": 53.33,
+      "seam_preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biome-village-floor-seam-2x2.png"
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biome-mine-floor.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "edge_average_delta": 1.46,
+      "edge_max_delta": 104.33,
+      "seam_preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biome-mine-floor-seam-2x2.png"
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biome-ruins-floor.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "edge_average_delta": 1.75,
+      "edge_max_delta": 66.67,
+      "seam_preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biome-ruins-floor-seam-2x2.png"
+    }
+  ],
+  "preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/biomes/biomes-preview.png"
+}

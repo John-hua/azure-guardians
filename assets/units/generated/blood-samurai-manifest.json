@@ -1,0 +1,48 @@
+{
+  "name": "blood-samurai",
+  "source": "Tiny Swords (Free Pack)/血侍.png",
+  "style": "source-image-preserving cutout animation",
+  "frameSize": [
+    192,
+    192
+  ],
+  "files": {
+    "blood-samurai-idle.png": {
+      "action": "idle",
+      "frames": 8,
+      "size": [
+        1536,
+        192
+      ],
+      "frameSize": [
+        192,
+        192
+      ]
+    },
+    "blood-samurai-run.png": {
+      "action": "run",
+      "frames": 8,
+      "size": [
+        1536,
+        192
+      ],
+      "frameSize": [
+        192,
+        192
+      ]
+    },
+    "blood-samurai-attack.png": {
+      "action": "attack",
+      "frames": 6,
+      "size": [
+        1152,
+        192
+      ],
+      "frameSize": [
+        192,
+        192
+      ]
+    }
+  },
+  "preview": "blood-samurai-preview.png"
+}

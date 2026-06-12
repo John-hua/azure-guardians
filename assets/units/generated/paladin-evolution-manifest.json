@@ -1,0 +1,95 @@
+{
+  "paladin-t2-idle-strip.png": {
+    "frames": 8,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-idle-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-idle.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-idle-source.png",
+    "background": "true alpha PNG after local green-screen removal",
+    "fix": "2026-05-31: idle strip rebuilt from one clean standing frame; all 8 frames share identical bottom-center anchor and bbox to remove wrong-frame popping."
+  },
+  "paladin-t2-run-strip.png": {
+    "frames": 6,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-run-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-run.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-run-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "paladin-t2-attack-strip.png": {
+    "frames": 4,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-attack-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-attack.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-attack-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "paladin-t3-idle-strip.png": {
+    "frames": 8,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-idle-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-idle.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-idle-source.png",
+    "background": "true alpha PNG after local green-screen removal",
+    "fix": "2026-05-31: idle strip rebuilt from one clean standing frame; all 8 frames share identical bottom-center anchor and bbox to remove wrong-frame popping."
+  },
+  "paladin-t3-run-strip.png": {
+    "frames": 6,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-run-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-run.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-run-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "paladin-t3-attack-strip.png": {
+    "frames": 4,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-attack-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-attack.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-attack-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "paladin-t4-idle-strip.png": {
+    "frames": 8,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-idle-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-idle.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-idle-source.png",
+    "background": "true alpha PNG after local green-screen removal",
+    "fix": "2026-05-31: idle strip rebuilt from one clean standing frame; all 8 frames share identical bottom-center anchor and bbox to remove wrong-frame popping."
+  },
+  "paladin-t4-run-strip.png": {
+    "frames": 6,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-run-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-run.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-run-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "paladin-t4-attack-strip.png": {
+    "frames": 4,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-attack-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-attack.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-attack-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "fx-evolve-strip.png": {
+    "frames": 10,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/fx-evolve-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/fx-evolve.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/fx-evolve-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  }
+}

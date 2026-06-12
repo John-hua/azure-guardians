@@ -1,0 +1,128 @@
+{
+  "style": "AI-generated painterly isometric cliff extensions, manually alpha-cleaned/cropped to requested dimensions; matches warm grass and orange-brown island-cliff kit",
+  "transparent_background": true,
+  "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliffs-extra-source.png",
+  "source_alpha": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliffs-extra-source-alpha.png",
+  "files": [
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliff-top-edge.png",
+      "size": [
+        200,
+        120
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bbox": [
+        420,
+        55,
+        1120,
+        300
+      ]
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliff-left-edge.png",
+      "size": [
+        120,
+        200
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bbox": [
+        105,
+        305,
+        315,
+        680
+      ]
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliff-right-edge.png",
+      "size": [
+        120,
+        200
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bbox": [
+        1212,
+        305,
+        1430,
+        680
+      ]
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliff-corner-tl.png",
+      "size": [
+        160,
+        160
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bbox": [
+        385,
+        330,
+        742,
+        640
+      ]
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliff-corner-tr.png",
+      "size": [
+        160,
+        160
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bbox": [
+        775,
+        330,
+        1130,
+        640
+      ]
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliff-corner-bl.png",
+      "size": [
+        160,
+        160
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bbox": [
+        390,
+        670,
+        760,
+        965
+      ]
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliff-corner-br.png",
+      "size": [
+        160,
+        160
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bbox": [
+        775,
+        670,
+        1148,
+        965
+      ]
+    }
+  ],
+  "preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/cliffs-extra/cliffs-extra-preview.png"
+}

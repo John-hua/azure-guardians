@@ -1,0 +1,57 @@
+# ===== 部署排除清单 =====
+# 不上线/不入仓的临时文件、参考素材、生成中间产物
+
+# 系统
+.DS_Store
+*.log
+node_modules/
+
+# 个人测试/参考素材 (不需要上线)
+assets/reference/
+assets/marketing/
+assets/3s.mp4
+assets/关卡1.mp4
+assets/关卡q-视频.mp4
+assets/单个水晶塔.mov
+assets/地图关卡1-无水晶-视频.mp4
+assets/基座动画.mp4
+assets/关卡1_1280x960_10FPS_Q70.webp
+assets/关卡1地形.png
+assets/fx/raw/
+assets/audio/skills/raw/
+
+# 预览/原图 (开发用)
+assets/ui/skills/skills-icons-preview.png
+**/*-preview.png
+**/*.backup.png
+
+# 临时
+tmp/
+prototypes/
+docs/asset-prompts/
+
+# 参考素材源文件 (单文件 100MB+, 超过 GitHub 限制)
+参考/
+Tiny Swords *
+*.mp4
+*.mov
+
+# Claude 本地配置 + 开发笔记
+.claude/
+ASSET_REQUESTS.md
+CLAUDE.md
+docs/
+
+# 视频抽帧/敌人参考 (开发分析用, 不上线)
+analysis_frames/
+generated_enemy_refs/
+
+# Python 脚本不上线 (本地工具)
+scripts/
+
+# 但保留 generated 目录里的 mp4 (是游戏特效素材)
+!assets/fx/generated/*.mp4
+!assets/units/generated/*.mp4
+
+# Python 脚本临时
+scripts/__pycache__/

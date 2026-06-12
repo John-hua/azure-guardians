@@ -1,0 +1,14 @@
+{
+  "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/path/path-edge-fade.png",
+  "size": [
+    64,
+    64
+  ],
+  "format": "PNG RGBA, true alpha fade to transparent edges",
+  "usage": "overlay on grass around hard path edges to soften transitions; can rotate or repeat",
+  "alpha_extrema": [
+    0,
+    230
+  ],
+  "preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/path/path-edge-fade-preview.png"
+}

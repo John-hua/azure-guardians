@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="data:," />
+  <title>蔚蓝守卫 · v0.1.0</title>
+  <style>
+    /* ===== 移动端拦截 ===== */
+    #mobile-block { display: none; }
+    @media (hover: none) and (pointer: coarse), (max-width: 900px) {
+      #mobile-block {
+        display: flex; position: fixed; inset: 0; z-index: 9999;
+        flex-direction: column; align-items: center; justify-content: center;
+        background: linear-gradient(180deg, #0d1922, #1a2638);
+        color: #f5e8c8; font-family: -apple-system, "PingFang SC", sans-serif;
+        text-align: center; padding: 32px;
+      }
+      #mobile-block h1 { font-size: 22px; margin: 0 0 12px; color: #ffd87a; letter-spacing: 2px; }
+      #mobile-block p  { font-size: 14px; line-height: 1.7; opacity: .9; max-width: 320px; }
+      #mobile-block .ico { font-size: 56px; margin-bottom: 18px; }
+      #mobile-block .ver { margin-top: 24px; font-size: 12px; opacity: .55; letter-spacing: 3px; }
+      #game, #hud { display: none !important; }
+    }
+    /* ===== 作者署名 ===== */
+    #credit {
+      position: fixed; bottom: 8px; right: 12px; z-index: 100;
+      font: 600 11px/1 -apple-system, "PingFang SC", sans-serif;
+      color: rgba(245, 232, 200, 0.55); letter-spacing: 2px;
+      pointer-events: none; text-shadow: 0 1px 2px rgba(0,0,0,.7);
+    }
+    #credit b { color: rgba(255, 216, 122, 0.7); font-weight: 700; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #1d2b1d;
+      height: 100%;
+      overflow: hidden;
+    }
+    #game {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    canvas {
+      /* image-rendering: pixelated;  ← 像素风用,插画风开了会出现"重影/锯齿"伪影 */
+      image-rendering: auto;
+      image-rendering: -webkit-optimize-contrast;
+    }
+
+    /* ===== HUD OVERLAY (HTML, viewport-anchored, immune to Phaser/canvas coord issues) ===== */
+    #hud {
+      position: fixed; inset: 0; pointer-events: none; z-index: 50;
+      font-family: monospace; color: #fff;
+    }
+    #hud .panel { position: absolute; pointer-events: none; }
+    /* Royal-Revolt-like combat HUD: player banner + top-left skill belt */
+    #hud .playerdock {
+      top: 0; left: 0; width: 86px; height: 152px;
+      background: linear-gradient(180deg, #173d73 0%, #0b2144 100%);
+      border-right: 3px solid #c2a35e; border-bottom: 3px solid #c2a35e;
+      clip-path: polygon(0 0, 100% 0, 100% 82%, 50% 100%, 0 82%);
+      box-shadow: 0 4px 0 #1b0e08, 0 8px 18px #0008;
+    }
+    #hud .portrait {
+      position: absolute; top: 12px; left: 16px;
+      width: 48px; height: 48px; border-radius: 50%;
+      background: #1b2030 center/cover; border: 3px solid #c2a35e;
+      box-shadow: inset 0 0 10px #0009, 0 2px 0 #1b0e08;
+    }
+    #hud .p1 {
+      position: absolute; top: 68px; left: 0; right: 0;
+      text-align: center; font-size: 22px; font-weight: 900;
+      color: #dff1ff; text-shadow: 0 2px 0 #00162c, 0 0 4px #000;
+    }
+    #hud .bars {
+      position: absolute; left: 88px; top: 106px;
+      width: 252px; display: flex; flex-direction: column; gap: 4px;
+      z-index: 6;
+    }
+    #hud .bar-wrap {
+      position: relative; height: 16px; background: #1b2030; border: 2px solid #41240f; border-radius: 3px; overflow: hidden;
+      box-shadow: inset 0 2px 0 #0007, 0 2px 0 #0005;
+    }
+    #hud .bar-fill { height: 100%; transition: width 80ms linear; }
+    #hud .bar-fill.hp { background: linear-gradient(180deg, #6cea5a, #2b8a2b); }
+    #hud .bar-fill.xp { background: linear-gradient(180deg, #44c6ff, #1776ca); height: 100%; margin: 0; border-radius: 2px; }
+    #hud .bar-label {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: bold; text-shadow: 0 0 2px #000, 0 0 2px #000;
+    }
+    #hud .timer {
+      top: 28px; left: 50%; transform: translateX(-50%);
+      font-size: 34px; font-weight: 900; font-style: italic;
+      color: #fff; text-shadow: 0 3px 0 #1c2c2c, 0 0 10px #0009;
+    }
+    #hud .minimap {
+      top: 24px; right: 24px;
+      width: 160px; height: 160px;
+      border: 2px solid #ffe0a060;
+      border-radius: 12px;
+      background: linear-gradient(180deg, #1a2a2a99, #0c1c1cdd);
+      box-shadow: 0 4px 12px #0009, inset 0 0 16px #0008;
+      overflow: hidden;
+    }
+    #hud .minimap canvas { width: 100%; height: 100%; display: block; image-rendering: auto; }
+    #hud .wavebox {
+      top: 86px; left: 50%; transform: translateX(-50%);
+      min-width: 220px; padding: 6px 14px 8px;
+      background: linear-gradient(180deg, #1a2a2acc, #0c1a1aee);
+      border: 2px solid #ffe07060; border-radius: 10px;
+      box-shadow: 0 4px 10px #0007;
+      text-align: center; pointer-events: none;
+      display: none;
+    }
+    #hud .wavebox.show { display: block; }
+    #hud .wavebox .wave-label {
+      color: #ffe070; font-weight: bold; font-size: 16px; letter-spacing: 1px;
+      text-shadow: 0 2px 0 #1c2c2c;
+    }
+    #hud .wavebox .wave-phase {
+      display: block; color: #d8efff; font-size: 12px; margin-top: 1px;
+      text-shadow: 0 1px 0 #1c2c2c;
+    }
+    #hud .wavebox .wave-prog {
+      margin-top: 5px; height: 5px; background: #00000088; border-radius: 3px; overflow: hidden;
+    }
+    #hud .wavebox .wave-prog-fill {
+      height: 100%; width: 0%; background: linear-gradient(90deg, #80c8ff, #ffe070);
+      transition: width .25s;
+    }
+    #hud .wavebox.boss { border-color: #ff5040; }
+    #hud .wavebox.boss .wave-label { color: #ff7a50; }
+    #hud .wavebox.boss .wave-prog-fill { background: linear-gradient(90deg, #ff5040, #ffa040); }
+    #hud .bottomstats {
+      bottom: 35px; left: 50%; transform: translateX(-50%);
+      display: flex; align-items: center; gap: 14px;
+      padding: 4px 14px 6px;
+      background: linear-gradient(180deg, #00000022, #00000055);
+      border-radius: 999px; text-shadow: 0 2px 0 #000, 0 0 5px #000;
+    }
+    #hud .plaque {
+      min-width: 96px; padding: 3px 10px;
+      background: #2a1d10aa; border: 2px solid #6b5836; border-radius: 999px;
+      display: flex; align-items: center; gap: 8px; font-weight: bold; font-size: 14px;
+      text-shadow: 0 0 2px #000;
+    }
+    #hud .plaque .ico { font-size: 16px; }
+    #hud .plaque.gold { color: #ffe070; }
+    #hud .plaque.kills { color: #ffcccc; }
+    #hud .level-medal {
+      width: 58px; height: 58px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      background: radial-gradient(circle at 50% 38%, #6f3b21, #241009 70%);
+      border: 4px solid #c2a35e; box-shadow: 0 3px 0 #1b0e08, 0 0 10px #0008;
+      color: #fff4c0; font-size: 22px; font-weight: 900;
+    }
+    /* Top-left hotbar */
+    #hud .hotbar {
+      top: 10px; left: 86px;
+      height: 56px; display: flex; gap: 4px; align-items: center;
+      padding: 4px 9px 5px;
+      background: linear-gradient(180deg, #6b3a1d, #2b1609);
+      border: 3px solid #5a2b12; border-left: 0; border-radius: 0 8px 8px 0;
+      box-shadow: 0 4px 0 #1b0e08, 0 8px 18px #0007;
+      z-index: 7;
+    }
+    #hud .slot {
+      position: relative; width: 48px; height: 48px;
+      background: #2a180c url('assets/ui/hud/skill-slot.png') center/contain no-repeat;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 4px;
+    }
+    #hud .slot .icon { width: 31px; height: 31px; background: center/contain no-repeat; }
+    #hud .slot .key {
+      position: absolute; bottom: -4px; left: 50%; transform: translateX(-50%);
+      min-width: 14px; height: 14px; line-height: 14px;
+      background: #e8c276; color: #2a1408; border: 1px solid #401f0f; border-radius: 2px;
+      font-size: 10px; font-weight: bold; text-align: center;
+      text-shadow: 0 0 2px #000;
+    }
+    #hud .slot .lvl {
+      position: absolute; top: 1px; right: 3px; font-size: 10px; font-weight: bold; color: #fff;
+      text-shadow: 0 0 2px #000;
+    }
+    #hud .xpbar {
+      left: 50%; bottom: 0; transform: translateX(-50%);
+      width: min(88vw, 1440px); height: 22px;
+      background: linear-gradient(180deg, #173450, #071826);
+      border: 3px solid #5a2b12; border-bottom: 0; border-radius: 10px 10px 0 0;
+      box-shadow: 0 -3px 0 #1b0e08, 0 -8px 18px #0006;
+      overflow: hidden;
+    }
+    #hud .xpbar .bar-fill.xp {
+      height: 100%; background: linear-gradient(180deg, #39c8ff, #0a65bb);
+      box-shadow: inset 0 2px 0 #a5efff99;
+    }
+    #hud .xpbar .xp-label {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 900; color: #dff7ff;
+      text-shadow: 0 2px 0 #00131d, 0 0 4px #000;
+    }
+    /* Cooldown sweep — radial mask via conic-gradient */
+    #hud .slot .cd {
+      position: absolute; inset: 0; border-radius: 50%; pointer-events: none;
+      background: conic-gradient(rgba(0,0,0,0.55) calc(var(--cd, 0) * 1%), transparent 0);
+    }
+    /* Boss HP bar */
+    #hud .bossbar {
+      top: 122px; left: 50%; transform: translateX(-50%);
+      width: 360px; padding: 6px 10px; background: #2a0c0ccc;
+      border: 2px solid #b04040; border-radius: 6px; display: none;
+    }
+    #hud .bossbar.show { display: block; }
+    #hud .bossbar .name { font-size: 13px; font-weight: bold; color: #ffd0d0; text-align: center; }
+    #hud .bossbar .bar { height: 14px; background: #1b0808; border-radius: 3px; overflow: hidden; margin-top: 4px; }
+    #hud .bossbar .bar > .fill { height: 100%; background: linear-gradient(180deg, #ff5050, #a02020); transition: width 80ms; }
+    #hud .corebar {
+      top: 74px; left: 50%; transform: translateX(-50%);
+      width: 300px; padding: 5px 9px; background: #08202acc;
+      border: 2px solid #6ad9ff; border-radius: 6px; display: none;
+      box-shadow: 0 3px 0 #061018, 0 0 12px #0008;
+    }
+    #hud .corebar.show { display: block; }
+    #hud .corebar .name { font-size: 12px; font-weight: bold; color: #bff5ff; text-align: center; text-shadow: 0 2px 0 #000; }
+    #hud .corebar .bar { height: 12px; background: #061018; border-radius: 3px; overflow: hidden; margin-top: 4px; }
+    #hud .corebar .bar > .fill { height: 100%; background: linear-gradient(180deg, #75f0ff, #1684c8); transition: width 80ms; }
+    /* Bottom control hint */
+    #hud .hint {
+      bottom: 26px; left: 10px;
+      background: #00000055; padding: 3px 6px; border-radius: 3px; font-size: 10px;
+    }
+    @media (max-width: 900px) {
+      #hud .hotbar { transform: scale(0.82); transform-origin: top left; }
+      #hud .bars { width: 190px; }
+      #hud .timer { font-size: 26px; top: 24px; }
+      #hud .bottomstats { bottom: 30px; gap: 8px; }
+      #hud .plaque { min-width: 72px; font-size: 12px; }
+      #hud .level-medal { width: 48px; height: 48px; font-size: 18px; }
+      #hud .hint { display: none; }
+    }
+    @media (max-width: 560px) {
+      #hud .playerdock { width: 68px; height: 120px; }
+      #hud .portrait { width: 40px; height: 40px; left: 11px; top: 10px; }
+      #hud .p1 { top: 57px; font-size: 18px; }
+      #hud .hotbar { left: 68px; top: 8px; transform: scale(0.68); }
+      #hud .bars { left: 70px; top: 82px; width: 160px; }
+      #hud .bar-wrap { height: 14px; }
+      #hud .bar-label { font-size: 10px; }
+      #hud .timer { top: 12px; font-size: 22px; }
+      #hud .wavebox { top: 46px; min-width: 150px; padding: 4px 9px 6px; }
+      #hud .wavebox .wave-label { font-size: 13px; }
+      #hud .minimap { display: none; }
+      #hud .corebar { top: 72px; width: 210px; }
+      #hud .bossbar { top: 112px; width: 260px; }
+      #hud .bottomstats { bottom: 26px; padding: 3px 8px 5px; }
+      #hud .xpbar { height: 18px; width: 94vw; }
+    }
+
+    /* ===== Death / leaderboard overlay ===== */
+    #death-overlay {
+      position: fixed; inset: 0; z-index: 70;
+      background: radial-gradient(ellipse at center, rgba(80,0,0,0.55), rgba(0,0,0,0.85));
+      display: none; align-items: center; justify-content: center;
+      font-family: monospace; color: #fff;
+    }
+    #death-overlay.show { display: flex; }
+    #death-overlay .box {
+      width: 560px; max-width: 92vw;
+      background: #1a0c08ee; border: 3px solid #b04040; border-radius: 12px;
+      padding: 22px 28px; box-shadow: 0 8px 32px #000a;
+    }
+    #death-overlay h2 {
+      margin: 0 0 6px; font-size: 26px; color: #ff7676; text-align: center;
+      letter-spacing: 6px; text-shadow: 0 0 6px #000;
+    }
+    #death-overlay .sub { text-align: center; color: #ddc; margin-bottom: 14px; font-size: 13px; }
+    #death-overlay .score-card {
+      background: #2a1d10; border: 2px solid #c2a35e; border-radius: 8px;
+      padding: 10px 14px; margin-bottom: 14px; display: flex; justify-content: space-around;
+      align-items: center; gap: 10px;
+    }
+    #death-overlay .score-card .label { color: #c8b890; font-size: 11px; }
+    #death-overlay .score-card .val { font-weight: bold; font-size: 18px; color: #ffe070; text-shadow: 0 0 3px #000; }
+    #death-overlay .score-card .total { color: #ffce4d; font-size: 26px; }
+    #death-overlay .name-row {
+      display: flex; gap: 8px; margin-bottom: 14px; align-items: center;
+    }
+    #death-overlay .name-row label { font-size: 12px; color: #cfe9ff; }
+    #death-overlay .name-row input {
+      flex: 1; background: #1b1208; color: #fff; border: 2px solid #6b5836; border-radius: 4px;
+      padding: 6px 10px; font-family: monospace; font-size: 14px;
+    }
+    #death-overlay .name-row button, #death-overlay .btn-row button {
+      background: #b04040; color: #fff; border: 2px solid #6b1a1a; border-radius: 4px;
+      padding: 6px 14px; font-family: monospace; font-size: 13px; font-weight: bold;
+      cursor: pointer;
+    }
+    #death-overlay .name-row button:hover, #death-overlay .btn-row button:hover { background: #d05050; }
+    #death-overlay .lb-title { font-size: 14px; color: #ffe070; margin: 6px 0 6px; }
+    #death-overlay .lb {
+      max-height: 260px; overflow-y: auto;
+      background: #00000044; border: 1px solid #6b5836; border-radius: 6px; padding: 6px;
+    }
+    #death-overlay .lb-row {
+      display: grid; grid-template-columns: 32px 1fr 70px 70px 70px;
+      gap: 6px; padding: 4px 8px; font-size: 12px;
+      border-bottom: 1px solid #ffffff14;
+    }
+    #death-overlay .lb-row.head { color: #c2a35e; font-weight: bold; border-bottom: 2px solid #c2a35e; }
+    #death-overlay .lb-row.me { background: #ffe07033; color: #ffe070; font-weight: bold; }
+    #death-overlay .lb-row .col-r { text-align: right; }
+    #death-overlay .lb-empty { padding: 12px 8px; text-align: center; color: #aaa; font-size: 13px; }
+    #death-overlay .btn-row { display: flex; justify-content: center; gap: 10px; margin-top: 14px; }
+    #death-overlay .hint-row { text-align: center; font-size: 11px; color: #aaa; margin-top: 8px; }
+
+    /* ===== Gear panel (HTML overlay) ===== */
+    #gear-overlay {
+      position: fixed; inset: 0; z-index: 60;
+      background: rgba(0,0,0,0.6); display: none;
+      font-family: monospace; color: #fff;
+    }
+    #gear-overlay.show { display: flex; align-items: center; justify-content: center; }
+    #gear-overlay .panel {
+      width: 540px; max-width: 92vw;
+      background: #2a1d10ee;
+      border: 3px solid #c2a35e; border-radius: 12px;
+      padding: 18px 22px; box-shadow: 0 8px 32px #000a;
+    }
+    #gear-overlay h2 {
+      margin: 0 0 12px; font-size: 18px; color: #ffe070; text-align: center;
+      text-shadow: 0 0 3px #000;
+    }
+    #gear-overlay .slots-row {
+      display: flex; justify-content: center; gap: 18px; margin-bottom: 14px;
+    }
+    #gear-overlay .slot-box {
+      width: 80px; text-align: center;
+    }
+    #gear-overlay .slot-label { font-size: 11px; color: #cfe9ff; margin-bottom: 4px; }
+    #gear-overlay .slot-box .frame {
+      width: 60px; height: 60px; margin: 0 auto;
+      background: #1a1f2b; border: 2px solid #555c6a; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 28px; position: relative;
+    }
+    #gear-overlay .slot-box .frame.equipped.common { border-color: #b9c2cc; }
+    #gear-overlay .slot-box .frame.equipped.rare { border-color: #4ea3ff; }
+    #gear-overlay .slot-box .frame.equipped.epic { border-color: #b06bff; }
+    #gear-overlay .slot-box .frame.equipped.legendary { border-color: #ffc23d; }
+    #gear-overlay .slot-box .frame .lvl {
+      position: absolute; bottom: 2px; right: 4px; font-size: 11px; font-weight: bold;
+      text-shadow: 0 0 2px #000;
+    }
+    #gear-overlay .item-list {
+      display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px;
+    }
+    #gear-overlay .item-row {
+      display: flex; align-items: center; gap: 8px;
+      padding: 5px 8px; border-radius: 6px;
+      background: #1b1208cc; font-size: 13px;
+    }
+    #gear-overlay .item-row .num {
+      width: 18px; height: 18px; border-radius: 50%; background: #6b5836;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: bold; color: #1a1208;
+    }
+    #gear-overlay .item-row .ico { font-size: 18px; width: 22px; text-align: center; }
+    #gear-overlay .item-row .name { flex: 1; font-weight: bold; }
+    #gear-overlay .item-row .stats { color: #c8c0a8; font-size: 11px; }
+    #gear-overlay .item-row .act { color: #ffd040; font-weight: bold; }
+    #gear-overlay .item-row .act.full { color: #88ff88; }
+    #gear-overlay .item-row .name.common { color: #b9c2cc; }
+    #gear-overlay .item-row .name.rare { color: #4ea3ff; }
+    #gear-overlay .item-row .name.epic { color: #b06bff; }
+    #gear-overlay .item-row .name.legendary { color: #ffc23d; }
+    #gear-overlay .footer {
+      font-size: 12px; color: #aaa; text-align: center; padding-top: 6px;
+      border-top: 1px solid #6b5836;
+    }
+  </style>
+</head>
+<body>
+  <!-- 移动端拦截页 (CSS @media 控制显隐) -->
+  <div id="mobile-block">
+    <div class="ico">🖥️</div>
+    <h1>请用电脑打开</h1>
+    <p>这是一款键鼠操作的网页游戏,移动端暂不支持。<br/>请在电脑浏览器里访问本页面。</p>
+    <div class="ver">蔚蓝守卫 · v0.1.0</div>
+  </div>
+  <!-- 作者署名 -->
+  <div id="credit"><b>AIGC 炼丹师</b> · v0.1.0</div>
+  <div id="game"></div>
+  <!-- HUD overlay: 用 HTML + CSS 锚定到浏览器视口，永远在四角和底部正中，不受 Phaser 画布坐标影响 -->
+  <div id="hud">
+    <div class="panel topleft playerdock">
+      <div class="portrait" id="hud-portrait"></div>
+      <div class="p1">P1</div>
+    </div>
+    <div class="panel hpcluster bars">
+      <div class="bar-wrap">
+        <div class="bar-fill hp" id="hud-hp" style="width: 100%;"></div>
+        <div class="bar-label" id="hud-hp-label">100 / 100</div>
+      </div>
+    </div>
+    <div class="panel topright timer"><span id="hud-time">00:00</span></div>
+    <div class="panel wavebox" id="hud-wavebox">
+      <span class="wave-label" id="hud-wave-label">第 1 波</span>
+      <span class="wave-phase" id="hud-wave-phase">准备 12s</span>
+      <div class="wave-prog"><div class="wave-prog-fill" id="hud-wave-prog"></div></div>
+    </div>
+    <div class="panel minimap" id="hud-minimap">
+      <canvas id="hud-minimap-canvas" width="160" height="160"></canvas>
+    </div>
+    <div class="panel bottomstats">
+      <div class="plaque gold"><span class="ico">🪙</span><span id="hud-gold">0</span></div>
+      <div class="level-medal" id="hud-lvl">1</div>
+      <div class="plaque kills"><span class="ico">☠</span><span id="hud-kills">0</span></div>
+    </div>
+    <div class="panel xpbar">
+      <div class="bar-fill xp" id="hud-xp" style="width: 0%;"></div>
+      <div class="xp-label" id="hud-xp-label">XP 0 / 5</div>
+    </div>
+    <div class="panel corebar" id="hud-corebar">
+      <div class="name" id="hud-corename">水晶塔</div>
+      <div class="bar"><div class="fill" id="hud-corefill" style="width:100%;"></div></div>
+    </div>
+    <div class="panel bossbar" id="hud-bossbar">
+      <div class="name" id="hud-bossname">首领</div>
+      <div class="bar"><div class="fill" id="hud-bossfill" style="width:100%;"></div></div>
+    </div>
+    <div class="panel hotbar" id="hud-hotbar">
+      <!-- 6 slots, filled by JS -->
+    </div>
+    <div class="panel hint">WASD 移动  L 横扫斩  K 冲刺  J 重击  U 剑气  I 战吼  H 回血  B 商店  E 装备</div>
+  </div>
+  <!-- 死亡结算 + 排行榜（HTML overlay）-->
+  <div id="death-overlay">
+    <div class="box">
+      <h2>你阵亡了</h2>
+      <div class="sub" id="death-sub">存活 00:00 · 等级 1 · 击杀 0</div>
+      <div class="score-card">
+        <div><div class="label">等级×1000</div><div class="val" id="death-lvlpt">0</div></div>
+        <div><div class="label">击杀×10</div><div class="val" id="death-killpt">0</div></div>
+        <div><div class="label">存活秒</div><div class="val" id="death-timept">0</div></div>
+        <div><div class="label">综合分</div><div class="val total" id="death-score">0</div></div>
+      </div>
+      <div class="name-row">
+        <label>昵称:</label>
+        <input id="death-name" maxlength="12" placeholder="输入昵称提交排名" />
+        <button id="death-submit">提交</button>
+      </div>
+      <div class="lb-title" id="lb-title">🏆 排行榜 Top 10（本地）</div>
+      <div class="lb" id="death-lb"><div class="lb-row"><span>读取中...</span></div></div>
+      <div class="btn-row">
+        <button id="death-restart">重新挑战 (R)</button>
+      </div>
+      <div class="hint-row">联网实时排行需要后端 URL — 见 leaderboard.js 注释</div>
+    </div>
+  </div>
+  <!-- 装备面板（HTML overlay，永远居中于浏览器视口）-->
+  <div id="gear-overlay">
+    <div class="panel">
+      <h2 id="gear-title">装备   金币 0</h2>
+      <div class="slots-row" id="gear-slots"></div>
+      <div class="item-list" id="gear-items"></div>
+      <div class="footer" id="gear-footer">1~6 选择 / 装备 / 升级    Q 翻页    E 关闭</div>
+    </div>
+  </div>
+  <!-- 运行时错误浮层：把静默崩溃/卡死变成可见、可截图的报错 -->
+  <div id="errbox" style="display:none;position:fixed;left:0;top:0;right:0;z-index:99999;
+       background:#7a0000ee;color:#fff;font:13px/1.5 monospace;padding:10px 14px;white-space:pre-wrap;
+       max-height:45vh;overflow:auto;border-bottom:2px solid #ff5050;"></div>
+  <script>
+    (function () {
+      var box = document.getElementById('errbox');
+      function show(headline, stack) {
+        // 只显示最新一条：把【错误信息】放最顶部、最显眼，堆栈只留前 4 行
+        var top = stack ? stack.split('\n').slice(0, 4).join('\n') : '';
+        box.style.display = 'block';
+        box.textContent = '⚠ 错误信息（请截图发我）:\n\n>>> ' + headline + '\n\n' + top;
+        box.scrollTop = 0;
+      }
+      window.__showErr = show;
+      window.addEventListener('error', function (e) {
+        var head = (e.message || 'error') + '   @ ' + (e.filename || '?').split('/').pop() + ':' + (e.lineno || '?');
+        show(head, e.error && e.error.stack ? e.error.stack : '');
+      });
+      window.addEventListener('unhandledrejection', function (e) {
+        var r = e.reason; show('Promise rejection: ' + (r && r.message ? r.message : r), r && r.stack ? r.stack : '');
+      });
+    })();
+  </script>
+  <!-- Phaser 3 via CDN (UMD build exposes global `Phaser`) -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+  <script type="module" src="./src/main.js?v=3"></script>
+</body>
+</html>

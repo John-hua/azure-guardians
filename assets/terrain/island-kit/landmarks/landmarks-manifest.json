@@ -1,0 +1,113 @@
+{
+  "style": "painterly isometric large landmarks for island-kit",
+  "transparent_background": true,
+  "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/landmarks/landmarks-source.png",
+  "source_alpha": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/landmarks/landmarks-source-alpha.png",
+  "files": [
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/landmarks/landmark-stone-arch.png",
+      "size": [
+        384,
+        384
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0,
+      "removed_small_fragments": [
+        {
+          "area": 21,
+          "bbox": [
+            179,
+            345,
+            190,
+            350
+          ]
+        },
+        {
+          "area": 294,
+          "bbox": [
+            315,
+            373,
+            371,
+            380
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/landmarks/landmark-shrine.png",
+      "size": [
+        320,
+        320
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0,
+      "removed_small_fragments": []
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/landmarks/landmark-windmill.png",
+      "size": [
+        384,
+        384
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0,
+      "removed_small_fragments": [
+        {
+          "area": 289,
+          "bbox": [
+            25,
+            362,
+            49,
+            380
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/landmarks/landmark-mushroom-grove.png",
+      "size": [
+        384,
+        320
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0,
+      "removed_small_fragments": []
+    },
+    {
+      "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/landmarks/landmark-crystal-cluster.png",
+      "size": [
+        320,
+        320
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_chroma_green_pixels": 0,
+      "removed_small_fragments": [
+        {
+          "area": 94,
+          "bbox": [
+            292,
+            30,
+            315,
+            36
+          ]
+        }
+      ]
+    }
+  ],
+  "preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/landmarks/landmarks-preview.png"
+}

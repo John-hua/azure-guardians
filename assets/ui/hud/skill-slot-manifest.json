@@ -1,0 +1,20 @@
+{
+  "skill-slot.png": {
+    "size": "128x128",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/hud/skill-slot-source.png",
+    "path": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/hud/skill-slot.png",
+    "background": "true alpha after green-screen removal"
+  },
+  "skill-slot-active.png": {
+    "size": "128x128",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/hud/skill-slot-active-source.png",
+    "path": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/hud/skill-slot-active.png",
+    "background": "true alpha after green-screen removal"
+  },
+  "cooldown-mask.png": {
+    "size": "128x128",
+    "path": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/hud/cooldown-mask.png",
+    "opacity": "60% black circle",
+    "background": "true alpha"
+  }
+}

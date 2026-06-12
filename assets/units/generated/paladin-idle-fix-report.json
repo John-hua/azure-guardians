@@ -1,0 +1,225 @@
+[
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-idle-strip.png",
+    "backup": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t2-idle-strip-before-idle-fix.png",
+    "seed_frame": 5,
+    "seed_bbox": [
+      28,
+      4,
+      163,
+      180
+    ],
+    "removed_components": [],
+    "frame_bboxes": [
+      [
+        29,
+        4,
+        164,
+        180
+      ],
+      [
+        29,
+        4,
+        164,
+        180
+      ],
+      [
+        29,
+        4,
+        164,
+        180
+      ],
+      [
+        29,
+        4,
+        164,
+        180
+      ],
+      [
+        29,
+        4,
+        164,
+        180
+      ],
+      [
+        29,
+        4,
+        164,
+        180
+      ],
+      [
+        29,
+        4,
+        164,
+        180
+      ],
+      [
+        29,
+        4,
+        164,
+        180
+      ]
+    ]
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-idle-strip.png",
+    "backup": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t3-idle-strip-before-idle-fix.png",
+    "seed_frame": 1,
+    "seed_bbox": [
+      28,
+      4,
+      164,
+      180
+    ],
+    "removed_components": [],
+    "frame_bboxes": [
+      [
+        28,
+        4,
+        164,
+        180
+      ],
+      [
+        28,
+        4,
+        164,
+        180
+      ],
+      [
+        28,
+        4,
+        164,
+        180
+      ],
+      [
+        28,
+        4,
+        164,
+        180
+      ],
+      [
+        28,
+        4,
+        164,
+        180
+      ],
+      [
+        28,
+        4,
+        164,
+        180
+      ],
+      [
+        28,
+        4,
+        164,
+        180
+      ],
+      [
+        28,
+        4,
+        164,
+        180
+      ]
+    ]
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-idle-strip.png",
+    "backup": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/units/generated/paladin-t4-idle-strip-before-idle-fix.png",
+    "seed_frame": 5,
+    "seed_bbox": [
+      26,
+      11,
+      166,
+      180
+    ],
+    "removed_components": [
+      {
+        "area": 79,
+        "bbox": [
+          67,
+          20,
+          80,
+          37
+        ]
+      },
+      {
+        "area": 38,
+        "bbox": [
+          95,
+          15,
+          105,
+          24
+        ]
+      },
+      {
+        "area": 31,
+        "bbox": [
+          64,
+          4,
+          71,
+          12
+        ]
+      },
+      {
+        "area": 28,
+        "bbox": [
+          135,
+          30,
+          143,
+          36
+        ]
+      }
+    ],
+    "frame_bboxes": [
+      [
+        26,
+        11,
+        166,
+        180
+      ],
+      [
+        26,
+        11,
+        166,
+        180
+      ],
+      [
+        26,
+        11,
+        166,
+        180
+      ],
+      [
+        26,
+        11,
+        166,
+        180
+      ],
+      [
+        26,
+        11,
+        166,
+        180
+      ],
+      [
+        26,
+        11,
+        166,
+        180
+      ],
+      [
+        26,
+        11,
+        166,
+        180
+      ],
+      [
+        26,
+        11,
+        166,
+        180
+      ]
+    ]
+  }
+]

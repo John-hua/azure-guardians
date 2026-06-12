@@ -1,0 +1,3303 @@
+{
+  "grass-cliff-platforms-v2.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components_dir": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2",
+    "component_count": 47,
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-01.png",
+        "bbox": [
+          36,
+          32,
+          321,
+          304
+        ],
+        "size": [
+          285,
+          272
+        ],
+        "alpha_area": 62742
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-02.png",
+        "bbox": [
+          345,
+          35,
+          590,
+          307
+        ],
+        "size": [
+          245,
+          272
+        ],
+        "alpha_area": 51440
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-03.png",
+        "bbox": [
+          610,
+          39,
+          740,
+          260
+        ],
+        "size": [
+          130,
+          221
+        ],
+        "alpha_area": 20010
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-04.png",
+        "bbox": [
+          763,
+          39,
+          858,
+          282
+        ],
+        "size": [
+          95,
+          243
+        ],
+        "alpha_area": 15089
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-05.png",
+        "bbox": [
+          877,
+          37,
+          1051,
+          273
+        ],
+        "size": [
+          174,
+          236
+        ],
+        "alpha_area": 24994
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-06.png",
+        "bbox": [
+          1074,
+          40,
+          1172,
+          274
+        ],
+        "size": [
+          98,
+          234
+        ],
+        "alpha_area": 15909
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-07.png",
+        "bbox": [
+          1196,
+          41,
+          1350,
+          192
+        ],
+        "size": [
+          154,
+          151
+        ],
+        "alpha_area": 13126
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-08.png",
+        "bbox": [
+          1370,
+          46,
+          1503,
+          176
+        ],
+        "size": [
+          133,
+          130
+        ],
+        "alpha_area": 10615
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-09.png",
+        "bbox": [
+          1205,
+          188,
+          1345,
+          305
+        ],
+        "size": [
+          140,
+          117
+        ],
+        "alpha_area": 10146
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-10.png",
+        "bbox": [
+          1374,
+          194,
+          1495,
+          304
+        ],
+        "size": [
+          121,
+          110
+        ],
+        "alpha_area": 7937
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-11.png",
+        "bbox": [
+          35,
+          323,
+          417,
+          460
+        ],
+        "size": [
+          382,
+          137
+        ],
+        "alpha_area": 37957
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-12.png",
+        "bbox": [
+          604,
+          320,
+          758,
+          460
+        ],
+        "size": [
+          154,
+          140
+        ],
+        "alpha_area": 13878
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-13.png",
+        "bbox": [
+          962,
+          322,
+          1100,
+          500
+        ],
+        "size": [
+          138,
+          178
+        ],
+        "alpha_area": 14017
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-14.png",
+        "bbox": [
+          1124,
+          323,
+          1284,
+          495
+        ],
+        "size": [
+          160,
+          172
+        ],
+        "alpha_area": 16325
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-15.png",
+        "bbox": [
+          1304,
+          322,
+          1495,
+          489
+        ],
+        "size": [
+          191,
+          167
+        ],
+        "alpha_area": 18459
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-16.png",
+        "bbox": [
+          442,
+          325,
+          581,
+          458
+        ],
+        "size": [
+          139,
+          133
+        ],
+        "alpha_area": 12667
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-17.png",
+        "bbox": [
+          786,
+          324,
+          934,
+          473
+        ],
+        "size": [
+          148,
+          149
+        ],
+        "alpha_area": 13772
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-18.png",
+        "bbox": [
+          35,
+          476,
+          243,
+          647
+        ],
+        "size": [
+          208,
+          171
+        ],
+        "alpha_area": 21402
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-19.png",
+        "bbox": [
+          243,
+          477,
+          429,
+          653
+        ],
+        "size": [
+          186,
+          176
+        ],
+        "alpha_area": 18221
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-20.png",
+        "bbox": [
+          422,
+          485,
+          601,
+          649
+        ],
+        "size": [
+          179,
+          164
+        ],
+        "alpha_area": 15923
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-21.png",
+        "bbox": [
+          609,
+          483,
+          765,
+          648
+        ],
+        "size": [
+          156,
+          165
+        ],
+        "alpha_area": 14132
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-22.png",
+        "bbox": [
+          766,
+          487,
+          902,
+          648
+        ],
+        "size": [
+          136,
+          161
+        ],
+        "alpha_area": 12592
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-23.png",
+        "bbox": [
+          910,
+          494,
+          1023,
+          657
+        ],
+        "size": [
+          113,
+          163
+        ],
+        "alpha_area": 8865
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-24.png",
+        "bbox": [
+          1031,
+          496,
+          1118,
+          634
+        ],
+        "size": [
+          87,
+          138
+        ],
+        "alpha_area": 6531
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-25.png",
+        "bbox": [
+          1125,
+          505,
+          1248,
+          648
+        ],
+        "size": [
+          123,
+          143
+        ],
+        "alpha_area": 9955
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-26.png",
+        "bbox": [
+          1259,
+          515,
+          1370,
+          631
+        ],
+        "size": [
+          111,
+          116
+        ],
+        "alpha_area": 7530
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-27.png",
+        "bbox": [
+          1381,
+          506,
+          1491,
+          610
+        ],
+        "size": [
+          110,
+          104
+        ],
+        "alpha_area": 6512
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-28.png",
+        "bbox": [
+          36,
+          668,
+          131,
+          801
+        ],
+        "size": [
+          95,
+          133
+        ],
+        "alpha_area": 7835
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-29.png",
+        "bbox": [
+          151,
+          669,
+          250,
+          799
+        ],
+        "size": [
+          99,
+          130
+        ],
+        "alpha_area": 8232
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-30.png",
+        "bbox": [
+          269,
+          672,
+          367,
+          800
+        ],
+        "size": [
+          98,
+          128
+        ],
+        "alpha_area": 7619
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-31.png",
+        "bbox": [
+          383,
+          679,
+          461,
+          797
+        ],
+        "size": [
+          78,
+          118
+        ],
+        "alpha_area": 5018
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-32.png",
+        "bbox": [
+          480,
+          676,
+          564,
+          800
+        ],
+        "size": [
+          84,
+          124
+        ],
+        "alpha_area": 6550
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-33.png",
+        "bbox": [
+          582,
+          673,
+          700,
+          813
+        ],
+        "size": [
+          118,
+          140
+        ],
+        "alpha_area": 10075
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-34.png",
+        "bbox": [
+          716,
+          677,
+          819,
+          796
+        ],
+        "size": [
+          103,
+          119
+        ],
+        "alpha_area": 7706
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-35.png",
+        "bbox": [
+          839,
+          680,
+          931,
+          800
+        ],
+        "size": [
+          92,
+          120
+        ],
+        "alpha_area": 7028
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-36.png",
+        "bbox": [
+          947,
+          680,
+          1027,
+          807
+        ],
+        "size": [
+          80,
+          127
+        ],
+        "alpha_area": 5852
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-37.png",
+        "bbox": [
+          1044,
+          680,
+          1109,
+          800
+        ],
+        "size": [
+          65,
+          120
+        ],
+        "alpha_area": 4340
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-38.png",
+        "bbox": [
+          1125,
+          677,
+          1201,
+          801
+        ],
+        "size": [
+          76,
+          124
+        ],
+        "alpha_area": 5475
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-39.png",
+        "bbox": [
+          1217,
+          678,
+          1294,
+          801
+        ],
+        "size": [
+          77,
+          123
+        ],
+        "alpha_area": 5487
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-40.png",
+        "bbox": [
+          1311,
+          668,
+          1413,
+          799
+        ],
+        "size": [
+          102,
+          131
+        ],
+        "alpha_area": 8528
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-41.png",
+        "bbox": [
+          1432,
+          679,
+          1491,
+          779
+        ],
+        "size": [
+          59,
+          100
+        ],
+        "alpha_area": 3266
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-42.png",
+        "bbox": [
+          35,
+          832,
+          633,
+          977
+        ],
+        "size": [
+          598,
+          145
+        ],
+        "alpha_area": 60899
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-43.png",
+        "bbox": [
+          653,
+          833,
+          850,
+          969
+        ],
+        "size": [
+          197,
+          136
+        ],
+        "alpha_area": 18923
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-44.png",
+        "bbox": [
+          861,
+          836,
+          980,
+          967
+        ],
+        "size": [
+          119,
+          131
+        ],
+        "alpha_area": 9570
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-45.png",
+        "bbox": [
+          996,
+          836,
+          1085,
+          971
+        ],
+        "size": [
+          89,
+          135
+        ],
+        "alpha_area": 7363
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-46.png",
+        "bbox": [
+          1102,
+          834,
+          1255,
+          962
+        ],
+        "size": [
+          153,
+          128
+        ],
+        "alpha_area": 12335
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/grass-cliff-platforms-v2/grass-cliff-platforms-v2-47.png",
+        "bbox": [
+          1267,
+          833,
+          1494,
+          971
+        ],
+        "size": [
+          227,
+          138
+        ],
+        "alpha_area": 22045
+      }
+    ]
+  },
+  "warm-green-forest-v2.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components_dir": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2",
+    "component_count": 60,
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-01.png",
+        "bbox": [
+          277,
+          35,
+          474,
+          243
+        ],
+        "size": [
+          197,
+          208
+        ],
+        "alpha_area": 19149
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-02.png",
+        "bbox": [
+          476,
+          28,
+          679,
+          245
+        ],
+        "size": [
+          203,
+          217
+        ],
+        "alpha_area": 20127
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-03.png",
+        "bbox": [
+          1313,
+          23,
+          1470,
+          245
+        ],
+        "size": [
+          157,
+          222
+        ],
+        "alpha_area": 11773
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-04.png",
+        "bbox": [
+          687,
+          67,
+          866,
+          237
+        ],
+        "size": [
+          179,
+          170
+        ],
+        "alpha_area": 11585
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-05.png",
+        "bbox": [
+          1169,
+          42,
+          1300,
+          240
+        ],
+        "size": [
+          131,
+          198
+        ],
+        "alpha_area": 9059
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-06.png",
+        "bbox": [
+          133,
+          90,
+          265,
+          241
+        ],
+        "size": [
+          132,
+          151
+        ],
+        "alpha_area": 8743
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-07.png",
+        "bbox": [
+          1050,
+          93,
+          1158,
+          242
+        ],
+        "size": [
+          108,
+          149
+        ],
+        "alpha_area": 5231
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-08.png",
+        "bbox": [
+          36,
+          123,
+          124,
+          234
+        ],
+        "size": [
+          88,
+          111
+        ],
+        "alpha_area": 3777
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-09.png",
+        "bbox": [
+          954,
+          129,
+          1040,
+          239
+        ],
+        "size": [
+          86,
+          110
+        ],
+        "alpha_area": 3111
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-10.png",
+        "bbox": [
+          875,
+          150,
+          945,
+          238
+        ],
+        "size": [
+          70,
+          88
+        ],
+        "alpha_area": 1876
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-11.png",
+        "bbox": [
+          368,
+          251,
+          570,
+          457
+        ],
+        "size": [
+          202,
+          206
+        ],
+        "alpha_area": 18848
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-12.png",
+        "bbox": [
+          580,
+          250,
+          790,
+          464
+        ],
+        "size": [
+          210,
+          214
+        ],
+        "alpha_area": 19953
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-13.png",
+        "bbox": [
+          805,
+          251,
+          990,
+          470
+        ],
+        "size": [
+          185,
+          219
+        ],
+        "alpha_area": 17351
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-14.png",
+        "bbox": [
+          25,
+          256,
+          349,
+          467
+        ],
+        "size": [
+          324,
+          211
+        ],
+        "alpha_area": 33196
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-15.png",
+        "bbox": [
+          1312,
+          271,
+          1516,
+          472
+        ],
+        "size": [
+          204,
+          201
+        ],
+        "alpha_area": 19625
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-16.png",
+        "bbox": [
+          1008,
+          288,
+          1147,
+          468
+        ],
+        "size": [
+          139,
+          180
+        ],
+        "alpha_area": 10005
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-17.png",
+        "bbox": [
+          1169,
+          294,
+          1302,
+          464
+        ],
+        "size": [
+          133,
+          170
+        ],
+        "alpha_area": 8521
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-18.png",
+        "bbox": [
+          22,
+          486,
+          140,
+          593
+        ],
+        "size": [
+          118,
+          107
+        ],
+        "alpha_area": 5015
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-19.png",
+        "bbox": [
+          146,
+          487,
+          265,
+          594
+        ],
+        "size": [
+          119,
+          107
+        ],
+        "alpha_area": 5331
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-20.png",
+        "bbox": [
+          271,
+          474,
+          408,
+          593
+        ],
+        "size": [
+          137,
+          119
+        ],
+        "alpha_area": 6965
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-21.png",
+        "bbox": [
+          417,
+          480,
+          554,
+          594
+        ],
+        "size": [
+          137,
+          114
+        ],
+        "alpha_area": 7101
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-22.png",
+        "bbox": [
+          562,
+          489,
+          699,
+          595
+        ],
+        "size": [
+          137,
+          106
+        ],
+        "alpha_area": 6875
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-23.png",
+        "bbox": [
+          716,
+          488,
+          855,
+          595
+        ],
+        "size": [
+          139,
+          107
+        ],
+        "alpha_area": 7100
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-24.png",
+        "bbox": [
+          868,
+          481,
+          1007,
+          594
+        ],
+        "size": [
+          139,
+          113
+        ],
+        "alpha_area": 7218
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-25.png",
+        "bbox": [
+          1171,
+          497,
+          1302,
+          593
+        ],
+        "size": [
+          131,
+          96
+        ],
+        "alpha_area": 3576
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-26.png",
+        "bbox": [
+          1028,
+          504,
+          1164,
+          597
+        ],
+        "size": [
+          136,
+          93
+        ],
+        "alpha_area": 4032
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-27.png",
+        "bbox": [
+          1336,
+          505,
+          1500,
+          593
+        ],
+        "size": [
+          164,
+          88
+        ],
+        "alpha_area": 4531
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-28.png",
+        "bbox": [
+          441,
+          609,
+          502,
+          694
+        ],
+        "size": [
+          61,
+          85
+        ],
+        "alpha_area": 1344
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-29.png",
+        "bbox": [
+          46,
+          638,
+          123,
+          697
+        ],
+        "size": [
+          77,
+          59
+        ],
+        "alpha_area": 1467
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-30.png",
+        "bbox": [
+          153,
+          628,
+          230,
+          701
+        ],
+        "size": [
+          77,
+          73
+        ],
+        "alpha_area": 1573
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-31.png",
+        "bbox": [
+          264,
+          633,
+          337,
+          697
+        ],
+        "size": [
+          73,
+          64
+        ],
+        "alpha_area": 1336
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-32.png",
+        "bbox": [
+          357,
+          637,
+          419,
+          695
+        ],
+        "size": [
+          62,
+          58
+        ],
+        "alpha_area": 851
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-33.png",
+        "bbox": [
+          517,
+          620,
+          575,
+          694
+        ],
+        "size": [
+          58,
+          74
+        ],
+        "alpha_area": 1122
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-34.png",
+        "bbox": [
+          747,
+          617,
+          803,
+          696
+        ],
+        "size": [
+          56,
+          79
+        ],
+        "alpha_area": 1242
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-35.png",
+        "bbox": [
+          906,
+          633,
+          975,
+          692
+        ],
+        "size": [
+          69,
+          59
+        ],
+        "alpha_area": 723
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-36.png",
+        "bbox": [
+          999,
+          637,
+          1069,
+          694
+        ],
+        "size": [
+          70,
+          57
+        ],
+        "alpha_area": 858
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-37.png",
+        "bbox": [
+          1083,
+          635,
+          1159,
+          694
+        ],
+        "size": [
+          76,
+          59
+        ],
+        "alpha_area": 1110
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-38.png",
+        "bbox": [
+          1185,
+          637,
+          1262,
+          695
+        ],
+        "size": [
+          77,
+          58
+        ],
+        "alpha_area": 1473
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-39.png",
+        "bbox": [
+          1284,
+          633,
+          1356,
+          693
+        ],
+        "size": [
+          72,
+          60
+        ],
+        "alpha_area": 1370
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-40.png",
+        "bbox": [
+          1360,
+          627,
+          1484,
+          702
+        ],
+        "size": [
+          124,
+          75
+        ],
+        "alpha_area": 2342
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-41.png",
+        "bbox": [
+          794,
+          714,
+          956,
+          828
+        ],
+        "size": [
+          162,
+          114
+        ],
+        "alpha_area": 7852
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-42.png",
+        "bbox": [
+          23,
+          721,
+          149,
+          818
+        ],
+        "size": [
+          126,
+          97
+        ],
+        "alpha_area": 5645
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-43.png",
+        "bbox": [
+          162,
+          728,
+          281,
+          818
+        ],
+        "size": [
+          119,
+          90
+        ],
+        "alpha_area": 5196
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-44.png",
+        "bbox": [
+          307,
+          732,
+          406,
+          812
+        ],
+        "size": [
+          99,
+          80
+        ],
+        "alpha_area": 3619
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-45.png",
+        "bbox": [
+          428,
+          741,
+          503,
+          810
+        ],
+        "size": [
+          75,
+          69
+        ],
+        "alpha_area": 1937
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-46.png",
+        "bbox": [
+          517,
+          734,
+          604,
+          814
+        ],
+        "size": [
+          87,
+          80
+        ],
+        "alpha_area": 2958
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-47.png",
+        "bbox": [
+          638,
+          725,
+          765,
+          824
+        ],
+        "size": [
+          127,
+          99
+        ],
+        "alpha_area": 6208
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-48.png",
+        "bbox": [
+          983,
+          724,
+          1128,
+          831
+        ],
+        "size": [
+          145,
+          107
+        ],
+        "alpha_area": 7625
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-49.png",
+        "bbox": [
+          1165,
+          721,
+          1291,
+          824
+        ],
+        "size": [
+          126,
+          103
+        ],
+        "alpha_area": 7206
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-50.png",
+        "bbox": [
+          1321,
+          727,
+          1481,
+          829
+        ],
+        "size": [
+          160,
+          102
+        ],
+        "alpha_area": 3947
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-51.png",
+        "bbox": [
+          26,
+          845,
+          153,
+          972
+        ],
+        "size": [
+          127,
+          127
+        ],
+        "alpha_area": 9251
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-52.png",
+        "bbox": [
+          173,
+          845,
+          287,
+          965
+        ],
+        "size": [
+          114,
+          120
+        ],
+        "alpha_area": 7725
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-53.png",
+        "bbox": [
+          306,
+          859,
+          423,
+          966
+        ],
+        "size": [
+          117,
+          107
+        ],
+        "alpha_area": 6192
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-54.png",
+        "bbox": [
+          933,
+          852,
+          1085,
+          973
+        ],
+        "size": [
+          152,
+          121
+        ],
+        "alpha_area": 10263
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-55.png",
+        "bbox": [
+          1106,
+          852,
+          1247,
+          978
+        ],
+        "size": [
+          141,
+          126
+        ],
+        "alpha_area": 9204
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-56.png",
+        "bbox": [
+          1271,
+          842,
+          1438,
+          981
+        ],
+        "size": [
+          167,
+          139
+        ],
+        "alpha_area": 11504
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-57.png",
+        "bbox": [
+          433,
+          883,
+          518,
+          960
+        ],
+        "size": [
+          85,
+          77
+        ],
+        "alpha_area": 3211
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-58.png",
+        "bbox": [
+          534,
+          866,
+          663,
+          964
+        ],
+        "size": [
+          129,
+          98
+        ],
+        "alpha_area": 7089
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-59.png",
+        "bbox": [
+          674,
+          886,
+          755,
+          961
+        ],
+        "size": [
+          81,
+          75
+        ],
+        "alpha_area": 2435
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/warm-green-forest-v2/warm-green-forest-v2-60.png",
+        "bbox": [
+          774,
+          873,
+          907,
+          965
+        ],
+        "size": [
+          133,
+          92
+        ],
+        "alpha_area": 7117
+      }
+    ]
+  },
+  "village-paths-water-v2.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components_dir": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2",
+    "component_count": 51,
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-01.png",
+        "bbox": [
+          41,
+          32,
+          237,
+          200
+        ],
+        "size": [
+          196,
+          168
+        ],
+        "alpha_area": 23488
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-02.png",
+        "bbox": [
+          268,
+          31,
+          380,
+          205
+        ],
+        "size": [
+          112,
+          174
+        ],
+        "alpha_area": 12862
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-03.png",
+        "bbox": [
+          944,
+          18,
+          1166,
+          216
+        ],
+        "size": [
+          222,
+          198
+        ],
+        "alpha_area": 21418
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-04.png",
+        "bbox": [
+          1180,
+          22,
+          1409,
+          217
+        ],
+        "size": [
+          229,
+          195
+        ],
+        "alpha_area": 21946
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-05.png",
+        "bbox": [
+          415,
+          36,
+          566,
+          201
+        ],
+        "size": [
+          151,
+          165
+        ],
+        "alpha_area": 14655
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-06.png",
+        "bbox": [
+          589,
+          45,
+          746,
+          198
+        ],
+        "size": [
+          157,
+          153
+        ],
+        "alpha_area": 13990
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-07.png",
+        "bbox": [
+          769,
+          49,
+          927,
+          203
+        ],
+        "size": [
+          158,
+          154
+        ],
+        "alpha_area": 14011
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-08.png",
+        "bbox": [
+          48,
+          215,
+          212,
+          374
+        ],
+        "size": [
+          164,
+          159
+        ],
+        "alpha_area": 17860
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-09.png",
+        "bbox": [
+          269,
+          213,
+          369,
+          377
+        ],
+        "size": [
+          100,
+          164
+        ],
+        "alpha_area": 10121
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-10.png",
+        "bbox": [
+          410,
+          222,
+          558,
+          378
+        ],
+        "size": [
+          148,
+          156
+        ],
+        "alpha_area": 12318
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-11.png",
+        "bbox": [
+          593,
+          234,
+          756,
+          384
+        ],
+        "size": [
+          163,
+          150
+        ],
+        "alpha_area": 12705
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-12.png",
+        "bbox": [
+          778,
+          237,
+          933,
+          384
+        ],
+        "size": [
+          155,
+          147
+        ],
+        "alpha_area": 11634
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-13.png",
+        "bbox": [
+          948,
+          217,
+          1159,
+          399
+        ],
+        "size": [
+          211,
+          182
+        ],
+        "alpha_area": 18041
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-14.png",
+        "bbox": [
+          1178,
+          268,
+          1283,
+          351
+        ],
+        "size": [
+          105,
+          83
+        ],
+        "alpha_area": 4322
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-15.png",
+        "bbox": [
+          1300,
+          278,
+          1402,
+          360
+        ],
+        "size": [
+          102,
+          82
+        ],
+        "alpha_area": 3997
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-16.png",
+        "bbox": [
+          1418,
+          301,
+          1514,
+          374
+        ],
+        "size": [
+          96,
+          73
+        ],
+        "alpha_area": 3216
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-17.png",
+        "bbox": [
+          215,
+          392,
+          394,
+          516
+        ],
+        "size": [
+          179,
+          124
+        ],
+        "alpha_area": 13959
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-18.png",
+        "bbox": [
+          409,
+          384,
+          557,
+          532
+        ],
+        "size": [
+          148,
+          148
+        ],
+        "alpha_area": 11090
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-19.png",
+        "bbox": [
+          570,
+          386,
+          675,
+          539
+        ],
+        "size": [
+          105,
+          153
+        ],
+        "alpha_area": 10402
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-20.png",
+        "bbox": [
+          37,
+          398,
+          168,
+          514
+        ],
+        "size": [
+          131,
+          116
+        ],
+        "alpha_area": 9540
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-21.png",
+        "bbox": [
+          703,
+          423,
+          904,
+          510
+        ],
+        "size": [
+          201,
+          87
+        ],
+        "alpha_area": 10309
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-22.png",
+        "bbox": [
+          939,
+          423,
+          1131,
+          508
+        ],
+        "size": [
+          192,
+          85
+        ],
+        "alpha_area": 9694
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-23.png",
+        "bbox": [
+          1156,
+          408,
+          1302,
+          522
+        ],
+        "size": [
+          146,
+          114
+        ],
+        "alpha_area": 5864
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-24.png",
+        "bbox": [
+          1311,
+          415,
+          1518,
+          525
+        ],
+        "size": [
+          207,
+          110
+        ],
+        "alpha_area": 9052
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-25.png",
+        "bbox": [
+          32,
+          552,
+          231,
+          709
+        ],
+        "size": [
+          199,
+          157
+        ],
+        "alpha_area": 19664
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-26.png",
+        "bbox": [
+          266,
+          550,
+          424,
+          706
+        ],
+        "size": [
+          158,
+          156
+        ],
+        "alpha_area": 12814
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-27.png",
+        "bbox": [
+          464,
+          551,
+          624,
+          717
+        ],
+        "size": [
+          160,
+          166
+        ],
+        "alpha_area": 11871
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-28.png",
+        "bbox": [
+          1138,
+          568,
+          1212,
+          637
+        ],
+        "size": [
+          74,
+          69
+        ],
+        "alpha_area": 2342
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-29.png",
+        "bbox": [
+          1256,
+          564,
+          1444,
+          723
+        ],
+        "size": [
+          188,
+          159
+        ],
+        "alpha_area": 17257
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-30.png",
+        "bbox": [
+          662,
+          580,
+          887,
+          710
+        ],
+        "size": [
+          225,
+          130
+        ],
+        "alpha_area": 16869
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-31.png",
+        "bbox": [
+          932,
+          578,
+          1003,
+          652
+        ],
+        "size": [
+          71,
+          74
+        ],
+        "alpha_area": 2382
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-32.png",
+        "bbox": [
+          1043,
+          576,
+          1110,
+          650
+        ],
+        "size": [
+          67,
+          74
+        ],
+        "alpha_area": 2140
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-33.png",
+        "bbox": [
+          1109,
+          661,
+          1198,
+          720
+        ],
+        "size": [
+          89,
+          59
+        ],
+        "alpha_area": 2392
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-34.png",
+        "bbox": [
+          29,
+          733,
+          219,
+          818
+        ],
+        "size": [
+          190,
+          85
+        ],
+        "alpha_area": 9320
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-35.png",
+        "bbox": [
+          265,
+          731,
+          463,
+          817
+        ],
+        "size": [
+          198,
+          86
+        ],
+        "alpha_area": 9771
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-36.png",
+        "bbox": [
+          500,
+          736,
+          672,
+          832
+        ],
+        "size": [
+          172,
+          96
+        ],
+        "alpha_area": 8824
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-37.png",
+        "bbox": [
+          716,
+          734,
+          910,
+          819
+        ],
+        "size": [
+          194,
+          85
+        ],
+        "alpha_area": 8840
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-38.png",
+        "bbox": [
+          943,
+          732,
+          1063,
+          818
+        ],
+        "size": [
+          120,
+          86
+        ],
+        "alpha_area": 6023
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-39.png",
+        "bbox": [
+          1097,
+          751,
+          1169,
+          815
+        ],
+        "size": [
+          72,
+          64
+        ],
+        "alpha_area": 2403
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-40.png",
+        "bbox": [
+          1300,
+          754,
+          1378,
+          808
+        ],
+        "size": [
+          78,
+          54
+        ],
+        "alpha_area": 1422
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-41.png",
+        "bbox": [
+          1399,
+          746,
+          1469,
+          811
+        ],
+        "size": [
+          70,
+          65
+        ],
+        "alpha_area": 1122
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-42.png",
+        "bbox": [
+          1200,
+          756,
+          1280,
+          815
+        ],
+        "size": [
+          80,
+          59
+        ],
+        "alpha_area": 1587
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-43.png",
+        "bbox": [
+          22,
+          834,
+          204,
+          1002
+        ],
+        "size": [
+          182,
+          168
+        ],
+        "alpha_area": 17110
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-44.png",
+        "bbox": [
+          239,
+          842,
+          417,
+          1000
+        ],
+        "size": [
+          178,
+          158
+        ],
+        "alpha_area": 18793
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-45.png",
+        "bbox": [
+          460,
+          841,
+          617,
+          999
+        ],
+        "size": [
+          157,
+          158
+        ],
+        "alpha_area": 11954
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-46.png",
+        "bbox": [
+          649,
+          845,
+          806,
+          987
+        ],
+        "size": [
+          157,
+          142
+        ],
+        "alpha_area": 9675
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-47.png",
+        "bbox": [
+          841,
+          844,
+          1067,
+          1008
+        ],
+        "size": [
+          226,
+          164
+        ],
+        "alpha_area": 17378
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-48.png",
+        "bbox": [
+          1070,
+          853,
+          1165,
+          972
+        ],
+        "size": [
+          95,
+          119
+        ],
+        "alpha_area": 2232
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-49.png",
+        "bbox": [
+          1101,
+          857,
+          1227,
+          1008
+        ],
+        "size": [
+          126,
+          151
+        ],
+        "alpha_area": 3900
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-50.png",
+        "bbox": [
+          1243,
+          864,
+          1400,
+          1007
+        ],
+        "size": [
+          157,
+          143
+        ],
+        "alpha_area": 5765
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-paths-water-v2/village-paths-water-v2-51.png",
+        "bbox": [
+          1409,
+          877,
+          1505,
+          953
+        ],
+        "size": [
+          96,
+          76
+        ],
+        "alpha_area": 2507
+      }
+    ]
+  },
+  "village-buildings-props-v2.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components_dir": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2",
+    "component_count": 40,
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-01.png",
+        "bbox": [
+          1233,
+          28,
+          1469,
+          336
+        ],
+        "size": [
+          236,
+          308
+        ],
+        "alpha_area": 37273
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-02.png",
+        "bbox": [
+          34,
+          60,
+          272,
+          308
+        ],
+        "size": [
+          238,
+          248
+        ],
+        "alpha_area": 30357
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-03.png",
+        "bbox": [
+          515,
+          46,
+          830,
+          328
+        ],
+        "size": [
+          315,
+          282
+        ],
+        "alpha_area": 54226
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-04.png",
+        "bbox": [
+          850,
+          38,
+          1207,
+          336
+        ],
+        "size": [
+          357,
+          298
+        ],
+        "alpha_area": 67868
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-05.png",
+        "bbox": [
+          295,
+          91,
+          500,
+          302
+        ],
+        "size": [
+          205,
+          211
+        ],
+        "alpha_area": 26131
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-06.png",
+        "bbox": [
+          36,
+          333,
+          317,
+          580
+        ],
+        "size": [
+          281,
+          247
+        ],
+        "alpha_area": 41335
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-07.png",
+        "bbox": [
+          355,
+          331,
+          699,
+          582
+        ],
+        "size": [
+          344,
+          251
+        ],
+        "alpha_area": 46008
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-08.png",
+        "bbox": [
+          760,
+          343,
+          976,
+          573
+        ],
+        "size": [
+          216,
+          230
+        ],
+        "alpha_area": 27643
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-09.png",
+        "bbox": [
+          1055,
+          345,
+          1215,
+          544
+        ],
+        "size": [
+          160,
+          199
+        ],
+        "alpha_area": 19643
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-10.png",
+        "bbox": [
+          1265,
+          360,
+          1465,
+          579
+        ],
+        "size": [
+          200,
+          219
+        ],
+        "alpha_area": 20648
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-11.png",
+        "bbox": [
+          993,
+          567,
+          1137,
+          717
+        ],
+        "size": [
+          144,
+          150
+        ],
+        "alpha_area": 9683
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-12.png",
+        "bbox": [
+          38,
+          610,
+          241,
+          723
+        ],
+        "size": [
+          203,
+          113
+        ],
+        "alpha_area": 8584
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-13.png",
+        "bbox": [
+          272,
+          610,
+          409,
+          714
+        ],
+        "size": [
+          137,
+          104
+        ],
+        "alpha_area": 5458
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-14.png",
+        "bbox": [
+          434,
+          610,
+          568,
+          721
+        ],
+        "size": [
+          134,
+          111
+        ],
+        "alpha_area": 6246
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-15.png",
+        "bbox": [
+          578,
+          597,
+          708,
+          721
+        ],
+        "size": [
+          130,
+          124
+        ],
+        "alpha_area": 5498
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-16.png",
+        "bbox": [
+          735,
+          579,
+          824,
+          723
+        ],
+        "size": [
+          89,
+          144
+        ],
+        "alpha_area": 5707
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-17.png",
+        "bbox": [
+          847,
+          593,
+          979,
+          732
+        ],
+        "size": [
+          132,
+          139
+        ],
+        "alpha_area": 6444
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-18.png",
+        "bbox": [
+          1151,
+          598,
+          1287,
+          707
+        ],
+        "size": [
+          136,
+          109
+        ],
+        "alpha_area": 5560
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-19.png",
+        "bbox": [
+          1300,
+          610,
+          1436,
+          721
+        ],
+        "size": [
+          136,
+          111
+        ],
+        "alpha_area": 6281
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-20.png",
+        "bbox": [
+          38,
+          730,
+          146,
+          857
+        ],
+        "size": [
+          108,
+          127
+        ],
+        "alpha_area": 8522
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-21.png",
+        "bbox": [
+          258,
+          733,
+          360,
+          858
+        ],
+        "size": [
+          102,
+          125
+        ],
+        "alpha_area": 8484
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-22.png",
+        "bbox": [
+          540,
+          741,
+          707,
+          864
+        ],
+        "size": [
+          167,
+          123
+        ],
+        "alpha_area": 9400
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-23.png",
+        "bbox": [
+          726,
+          727,
+          907,
+          895
+        ],
+        "size": [
+          181,
+          168
+        ],
+        "alpha_area": 15765
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-24.png",
+        "bbox": [
+          1053,
+          742,
+          1187,
+          868
+        ],
+        "size": [
+          134,
+          126
+        ],
+        "alpha_area": 8566
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-25.png",
+        "bbox": [
+          1199,
+          748,
+          1314,
+          857
+        ],
+        "size": [
+          115,
+          109
+        ],
+        "alpha_area": 6252
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-26.png",
+        "bbox": [
+          1331,
+          750,
+          1470,
+          877
+        ],
+        "size": [
+          139,
+          127
+        ],
+        "alpha_area": 8913
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-27.png",
+        "bbox": [
+          150,
+          758,
+          249,
+          859
+        ],
+        "size": [
+          99,
+          101
+        ],
+        "alpha_area": 5759
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-28.png",
+        "bbox": [
+          362,
+          757,
+          441,
+          857
+        ],
+        "size": [
+          79,
+          100
+        ],
+        "alpha_area": 4905
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-29.png",
+        "bbox": [
+          455,
+          769,
+          524,
+          852
+        ],
+        "size": [
+          69,
+          83
+        ],
+        "alpha_area": 2936
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-30.png",
+        "bbox": [
+          927,
+          761,
+          1042,
+          867
+        ],
+        "size": [
+          115,
+          106
+        ],
+        "alpha_area": 6157
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-31.png",
+        "bbox": [
+          53,
+          887,
+          193,
+          984
+        ],
+        "size": [
+          140,
+          97
+        ],
+        "alpha_area": 6233
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-32.png",
+        "bbox": [
+          375,
+          887,
+          489,
+          979
+        ],
+        "size": [
+          114,
+          92
+        ],
+        "alpha_area": 4122
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-33.png",
+        "bbox": [
+          514,
+          898,
+          618,
+          979
+        ],
+        "size": [
+          104,
+          81
+        ],
+        "alpha_area": 3379
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-34.png",
+        "bbox": [
+          640,
+          873,
+          750,
+          989
+        ],
+        "size": [
+          110,
+          116
+        ],
+        "alpha_area": 4000
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-35.png",
+        "bbox": [
+          904,
+          890,
+          985,
+          990
+        ],
+        "size": [
+          81,
+          100
+        ],
+        "alpha_area": 3635
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-36.png",
+        "bbox": [
+          217,
+          905,
+          347,
+          983
+        ],
+        "size": [
+          130,
+          78
+        ],
+        "alpha_area": 3212
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-37.png",
+        "bbox": [
+          773,
+          912,
+          858,
+          977
+        ],
+        "size": [
+          85,
+          65
+        ],
+        "alpha_area": 2239
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-38.png",
+        "bbox": [
+          1142,
+          916,
+          1220,
+          967
+        ],
+        "size": [
+          78,
+          51
+        ],
+        "alpha_area": 1238
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-39.png",
+        "bbox": [
+          1247,
+          919,
+          1334,
+          980
+        ],
+        "size": [
+          87,
+          61
+        ],
+        "alpha_area": 1722
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/village-buildings-props-v2/village-buildings-props-v2-40.png",
+        "bbox": [
+          1364,
+          920,
+          1436,
+          974
+        ],
+        "size": [
+          72,
+          54
+        ],
+        "alpha_area": 1139
+      }
+    ]
+  },
+  "ruins-rocks-deco-v2.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components_dir": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2",
+    "component_count": 33,
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-01.png",
+        "bbox": [
+          25,
+          52,
+          343,
+          261
+        ],
+        "size": [
+          318,
+          209
+        ],
+        "alpha_area": 33673
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-02.png",
+        "bbox": [
+          346,
+          55,
+          557,
+          252
+        ],
+        "size": [
+          211,
+          197
+        ],
+        "alpha_area": 19455
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-03.png",
+        "bbox": [
+          571,
+          47,
+          785,
+          260
+        ],
+        "size": [
+          214,
+          213
+        ],
+        "alpha_area": 19595
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-04.png",
+        "bbox": [
+          801,
+          43,
+          1020,
+          274
+        ],
+        "size": [
+          219,
+          231
+        ],
+        "alpha_area": 24246
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-05.png",
+        "bbox": [
+          1274,
+          71,
+          1401,
+          258
+        ],
+        "size": [
+          127,
+          187
+        ],
+        "alpha_area": 12313
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-06.png",
+        "bbox": [
+          1050,
+          120,
+          1256,
+          263
+        ],
+        "size": [
+          206,
+          143
+        ],
+        "alpha_area": 19205
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-07.png",
+        "bbox": [
+          1399,
+          146,
+          1479,
+          248
+        ],
+        "size": [
+          80,
+          102
+        ],
+        "alpha_area": 3650
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-08.png",
+        "bbox": [
+          370,
+          279,
+          581,
+          429
+        ],
+        "size": [
+          211,
+          150
+        ],
+        "alpha_area": 18104
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-09.png",
+        "bbox": [
+          632,
+          287,
+          884,
+          422
+        ],
+        "size": [
+          252,
+          135
+        ],
+        "alpha_area": 19316
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-10.png",
+        "bbox": [
+          1180,
+          270,
+          1487,
+          456
+        ],
+        "size": [
+          307,
+          186
+        ],
+        "alpha_area": 27581
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-11.png",
+        "bbox": [
+          54,
+          291,
+          328,
+          436
+        ],
+        "size": [
+          274,
+          145
+        ],
+        "alpha_area": 21989
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-12.png",
+        "bbox": [
+          935,
+          299,
+          1112,
+          418
+        ],
+        "size": [
+          177,
+          119
+        ],
+        "alpha_area": 13360
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-13.png",
+        "bbox": [
+          22,
+          433,
+          237,
+          619
+        ],
+        "size": [
+          215,
+          186
+        ],
+        "alpha_area": 22774
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-14.png",
+        "bbox": [
+          269,
+          442,
+          468,
+          632
+        ],
+        "size": [
+          199,
+          190
+        ],
+        "alpha_area": 21510
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-15.png",
+        "bbox": [
+          485,
+          460,
+          690,
+          631
+        ],
+        "size": [
+          205,
+          171
+        ],
+        "alpha_area": 19562
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-16.png",
+        "bbox": [
+          716,
+          438,
+          960,
+          637
+        ],
+        "size": [
+          244,
+          199
+        ],
+        "alpha_area": 30265
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-17.png",
+        "bbox": [
+          969,
+          434,
+          1105,
+          626
+        ],
+        "size": [
+          136,
+          192
+        ],
+        "alpha_area": 13181
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-18.png",
+        "bbox": [
+          1117,
+          482,
+          1253,
+          629
+        ],
+        "size": [
+          136,
+          147
+        ],
+        "alpha_area": 10622
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-19.png",
+        "bbox": [
+          1263,
+          501,
+          1473,
+          626
+        ],
+        "size": [
+          210,
+          125
+        ],
+        "alpha_area": 13932
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-20.png",
+        "bbox": [
+          20,
+          633,
+          342,
+          795
+        ],
+        "size": [
+          322,
+          162
+        ],
+        "alpha_area": 24045
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-21.png",
+        "bbox": [
+          955,
+          643,
+          1085,
+          795
+        ],
+        "size": [
+          130,
+          152
+        ],
+        "alpha_area": 8330
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-22.png",
+        "bbox": [
+          350,
+          663,
+          535,
+          782
+        ],
+        "size": [
+          185,
+          119
+        ],
+        "alpha_area": 11243
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-23.png",
+        "bbox": [
+          546,
+          651,
+          735,
+          784
+        ],
+        "size": [
+          189,
+          133
+        ],
+        "alpha_area": 11153
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-24.png",
+        "bbox": [
+          755,
+          671,
+          934,
+          789
+        ],
+        "size": [
+          179,
+          118
+        ],
+        "alpha_area": 11847
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-25.png",
+        "bbox": [
+          1094,
+          668,
+          1309,
+          792
+        ],
+        "size": [
+          215,
+          124
+        ],
+        "alpha_area": 11657
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-26.png",
+        "bbox": [
+          1325,
+          661,
+          1485,
+          787
+        ],
+        "size": [
+          160,
+          126
+        ],
+        "alpha_area": 8865
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-27.png",
+        "bbox": [
+          37,
+          812,
+          266,
+          950
+        ],
+        "size": [
+          229,
+          138
+        ],
+        "alpha_area": 18634
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-28.png",
+        "bbox": [
+          275,
+          814,
+          475,
+          951
+        ],
+        "size": [
+          200,
+          137
+        ],
+        "alpha_area": 16190
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-29.png",
+        "bbox": [
+          487,
+          815,
+          712,
+          953
+        ],
+        "size": [
+          225,
+          138
+        ],
+        "alpha_area": 18318
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-30.png",
+        "bbox": [
+          723,
+          821,
+          905,
+          952
+        ],
+        "size": [
+          182,
+          131
+        ],
+        "alpha_area": 13678
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-31.png",
+        "bbox": [
+          911,
+          815,
+          1091,
+          950
+        ],
+        "size": [
+          180,
+          135
+        ],
+        "alpha_area": 14746
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-32.png",
+        "bbox": [
+          1098,
+          825,
+          1308,
+          950
+        ],
+        "size": [
+          210,
+          125
+        ],
+        "alpha_area": 14800
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit-v2/ruins-rocks-deco-v2/ruins-rocks-deco-v2-33.png",
+        "bbox": [
+          1315,
+          829,
+          1440,
+          925
+        ],
+        "size": [
+          125,
+          96
+        ],
+        "alpha_area": 5258
+      }
+    ]
+  },
+  "_summary": {
+    "style": "warm cozy island village terrain kit, Cat-Island-like reference direction, top-down 2D pixel/painterly hybrid",
+    "transparent_background": true,
+    "sheet_count": 5,
+    "total_components": 231,
+    "notes": "Use full sheets for manual atlas packing or individual component folders for Phaser image loading."
+  }
+}

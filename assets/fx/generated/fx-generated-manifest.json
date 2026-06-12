@@ -1,0 +1,73 @@
+{
+  "fx-slash-strip.png": {
+    "frames": 8,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-slash-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-slash.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-slash-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "fx-swordwave-strip.png": {
+    "frames": 6,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-swordwave-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-swordwave.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-swordwave-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "fx-fireball-trail-strip.png": {
+    "frames": 6,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-fireball-trail-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-fireball-trail.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-fireball-trail-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "fx-impact-strip.png": {
+    "frames": 7,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-impact-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-impact.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-impact-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "fx-gem-pickup-strip.png": {
+    "frames": 6,
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-gem-pickup-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-gem-pickup.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-gem-pickup-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "fx-levelup-aura-strip.png": {
+    "frames": 8,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-levelup-aura-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-levelup-aura.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-levelup-aura-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "gem-sparkle-strip.png": {
+    "frames": 4,
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/gem-sparkle-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/gem-sparkle.gif",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/gem-sparkle-source.png",
+    "background": "true alpha PNG after local green-screen removal"
+  },
+  "fx-sword-nova-strip.png": {
+    "frames": 8,
+    "frameWidth": 192,
+    "frameHeight": 192,
+    "strip": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-sword-nova-strip.png",
+    "previewGif": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/fx/generated/fx-sword-nova.gif",
+    "background": "true alpha PNG, procedurally redrawn centered nova"
+  }
+}

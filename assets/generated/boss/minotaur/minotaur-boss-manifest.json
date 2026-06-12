@@ -1,0 +1,50 @@
+{
+  "name": "minotaur-boss",
+  "frameSize": [
+    192,
+    192
+  ],
+  "style": "2.5D painterly cartoon boss, chroma-key removed",
+  "files": {
+    "minotaur-boss-idle-strip.png": {
+      "action": "idle",
+      "frames": 8,
+      "size": [
+        1536,
+        192
+      ],
+      "frameSize": [
+        192,
+        192
+      ],
+      "gif": "minotaur-boss-idle.gif"
+    },
+    "minotaur-boss-run-strip.png": {
+      "action": "run",
+      "frames": 6,
+      "size": [
+        1152,
+        192
+      ],
+      "frameSize": [
+        192,
+        192
+      ],
+      "gif": "minotaur-boss-run.gif"
+    },
+    "minotaur-boss-attack-strip.png": {
+      "action": "attack",
+      "frames": 5,
+      "size": [
+        960,
+        192
+      ],
+      "frameSize": [
+        192,
+        192
+      ],
+      "gif": "minotaur-boss-attack.gif"
+    }
+  },
+  "preview": "minotaur-boss-preview.png"
+}

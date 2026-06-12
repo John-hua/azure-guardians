@@ -1,0 +1,646 @@
+[
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-03.png",
+    "sheet": "island-cliffs-plateaus-sheet.png",
+    "num": 3,
+    "old_bbox": [
+      762,
+      67,
+      916,
+      292
+    ],
+    "new_source_bbox": [
+      770,
+      75,
+      908,
+      284
+    ],
+    "output_size": [
+      146,
+      217
+    ],
+    "kept_components": 1,
+    "main_area": 21716
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-04.png",
+    "sheet": "island-cliffs-plateaus-sheet.png",
+    "num": 4,
+    "old_bbox": [
+      904,
+      68,
+      1121,
+      298
+    ],
+    "new_source_bbox": [
+      912,
+      76,
+      1113,
+      290
+    ],
+    "output_size": [
+      209,
+      222
+    ],
+    "kept_components": 1,
+    "main_area": 31542
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-20.png",
+    "sheet": "island-cliffs-plateaus-sheet.png",
+    "num": 20,
+    "old_bbox": [
+      773,
+      672,
+      943,
+      829
+    ],
+    "new_source_bbox": [
+      781,
+      680,
+      935,
+      821
+    ],
+    "output_size": [
+      162,
+      149
+    ],
+    "kept_components": 1,
+    "main_area": 16067
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-21.png",
+    "sheet": "island-cliffs-plateaus-sheet.png",
+    "num": 21,
+    "old_bbox": [
+      934,
+      671,
+      1051,
+      832
+    ],
+    "new_source_bbox": [
+      942,
+      679,
+      1043,
+      824
+    ],
+    "output_size": [
+      109,
+      153
+    ],
+    "kept_components": 1,
+    "main_area": 10134
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-02.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 2,
+    "old_bbox": [
+      241,
+      33,
+      316,
+      81
+    ],
+    "new_source_bbox": [
+      249,
+      41,
+      326,
+      80
+    ],
+    "output_size": [
+      85,
+      47
+    ],
+    "kept_components": 2,
+    "main_area": 954
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-04.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 4,
+    "old_bbox": [
+      885,
+      67,
+      1068,
+      230
+    ],
+    "new_source_bbox": [
+      893,
+      60,
+      1060,
+      222
+    ],
+    "output_size": [
+      175,
+      170
+    ],
+    "kept_components": 9,
+    "main_area": 8934
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-05.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 5,
+    "old_bbox": [
+      1070,
+      35,
+      1205,
+      224
+    ],
+    "new_source_bbox": [
+      1078,
+      43,
+      1208,
+      216
+    ],
+    "output_size": [
+      138,
+      181
+    ],
+    "kept_components": 17,
+    "main_area": 7647
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-06.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 6,
+    "old_bbox": [
+      1222,
+      57,
+      1338,
+      222
+    ],
+    "new_source_bbox": [
+      1230,
+      53,
+      1345,
+      214
+    ],
+    "output_size": [
+      123,
+      169
+    ],
+    "kept_components": 13,
+    "main_area": 5843
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-14.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 14,
+    "old_bbox": [
+      691,
+      390,
+      774,
+      454
+    ],
+    "new_source_bbox": [
+      699,
+      388,
+      773,
+      446
+    ],
+    "output_size": [
+      82,
+      66
+    ],
+    "kept_components": 9,
+    "main_area": 1260
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-15.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 15,
+    "old_bbox": [
+      804,
+      394,
+      876,
+      454
+    ],
+    "new_source_bbox": [
+      801,
+      384,
+      872,
+      446
+    ],
+    "output_size": [
+      79,
+      70
+    ],
+    "kept_components": 10,
+    "main_area": 848
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-16.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 16,
+    "old_bbox": [
+      893,
+      382,
+      967,
+      453
+    ],
+    "new_source_bbox": [
+      901,
+      381,
+      967,
+      445
+    ],
+    "output_size": [
+      74,
+      72
+    ],
+    "kept_components": 9,
+    "main_area": 1332
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-17.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 17,
+    "old_bbox": [
+      982,
+      377,
+      1067,
+      456
+    ],
+    "new_source_bbox": [
+      984,
+      379,
+      1068,
+      448
+    ],
+    "output_size": [
+      92,
+      77
+    ],
+    "kept_components": 10,
+    "main_area": 1537
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-18.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 18,
+    "old_bbox": [
+      1097,
+      394,
+      1172,
+      458
+    ],
+    "new_source_bbox": [
+      1091,
+      396,
+      1174,
+      450
+    ],
+    "output_size": [
+      91,
+      62
+    ],
+    "kept_components": 12,
+    "main_area": 900
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-19.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 19,
+    "old_bbox": [
+      1189,
+      388,
+      1292,
+      463
+    ],
+    "new_source_bbox": [
+      1197,
+      385,
+      1293,
+      455
+    ],
+    "output_size": [
+      104,
+      78
+    ],
+    "kept_components": 20,
+    "main_area": 1703
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-20.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 20,
+    "old_bbox": [
+      1319,
+      396,
+      1375,
+      451
+    ],
+    "new_source_bbox": [
+      1315,
+      396,
+      1378,
+      443
+    ],
+    "output_size": [
+      71,
+      55
+    ],
+    "kept_components": 7,
+    "main_area": 821
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-21.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 21,
+    "old_bbox": [
+      1396,
+      381,
+      1495,
+      465
+    ],
+    "new_source_bbox": [
+      1394,
+      381,
+      1488,
+      457
+    ],
+    "output_size": [
+      102,
+      84
+    ],
+    "kept_components": 7,
+    "main_area": 2356
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-31.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 31,
+    "old_bbox": [
+      1287,
+      482,
+      1422,
+      665
+    ],
+    "new_source_bbox": [
+      1295,
+      490,
+      1414,
+      657
+    ],
+    "output_size": [
+      127,
+      175
+    ],
+    "kept_components": 6,
+    "main_area": 11579
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-32.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 32,
+    "old_bbox": [
+      1393,
+      496,
+      1518,
+      619
+    ],
+    "new_source_bbox": [
+      1401,
+      504,
+      1510,
+      611
+    ],
+    "output_size": [
+      117,
+      115
+    ],
+    "kept_components": 5,
+    "main_area": 6413
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-38.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 38,
+    "old_bbox": [
+      28,
+      710,
+      122,
+      776
+    ],
+    "new_source_bbox": [
+      36,
+      718,
+      114,
+      776
+    ],
+    "output_size": [
+      86,
+      66
+    ],
+    "kept_components": 2,
+    "main_area": 2098
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-39.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 39,
+    "old_bbox": [
+      178,
+      714,
+      266,
+      767
+    ],
+    "new_source_bbox": [
+      186,
+      722,
+      268,
+      764
+    ],
+    "output_size": [
+      90,
+      50
+    ],
+    "kept_components": 2,
+    "main_area": 1576
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-40.png",
+    "sheet": "island-forest-rocks-flowers-sheet.png",
+    "num": 40,
+    "old_bbox": [
+      1085,
+      698,
+      1161,
+      768
+    ],
+    "new_source_bbox": [
+      1080,
+      706,
+      1154,
+      764
+    ],
+    "output_size": [
+      82,
+      66
+    ],
+    "kept_components": 8,
+    "main_area": 1518
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-35.png",
+    "sheet": "island-path-water-sheet.png",
+    "num": 35,
+    "old_bbox": [
+      1185,
+      660,
+      1301,
+      729
+    ],
+    "new_source_bbox": [
+      1193,
+      668,
+      1311,
+      721
+    ],
+    "output_size": [
+      126,
+      61
+    ],
+    "kept_components": 4,
+    "main_area": 2710
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-40.png",
+    "sheet": "island-path-water-sheet.png",
+    "num": 40,
+    "old_bbox": [
+      850,
+      759,
+      1112,
+      985
+    ],
+    "new_source_bbox": [
+      858,
+      767,
+      1104,
+      982
+    ],
+    "output_size": [
+      254,
+      223
+    ],
+    "kept_components": 46,
+    "main_area": 25847
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-04.png",
+    "sheet": "island-landmark-props-sheet.png",
+    "num": 4,
+    "old_bbox": [
+      557,
+      129,
+      717,
+      318
+    ],
+    "new_source_bbox": [
+      565,
+      137,
+      709,
+      310
+    ],
+    "output_size": [
+      152,
+      181
+    ],
+    "kept_components": 1,
+    "main_area": 19056
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-07.png",
+    "sheet": "island-landmark-props-sheet.png",
+    "num": 7,
+    "old_bbox": [
+      708,
+      187,
+      830,
+      318
+    ],
+    "new_source_bbox": [
+      716,
+      195,
+      822,
+      310
+    ],
+    "output_size": [
+      114,
+      123
+    ],
+    "kept_components": 1,
+    "main_area": 8773
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-12.png",
+    "sheet": "island-landmark-props-sheet.png",
+    "num": 12,
+    "old_bbox": [
+      934,
+      359,
+      1141,
+      562
+    ],
+    "new_source_bbox": [
+      934,
+      367,
+      1133,
+      563
+    ],
+    "output_size": [
+      207,
+      204
+    ],
+    "kept_components": 9,
+    "main_area": 20635
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-20.png",
+    "sheet": "island-landmark-props-sheet.png",
+    "num": 20,
+    "old_bbox": [
+      806,
+      852,
+      904,
+      965
+    ],
+    "new_source_bbox": [
+      814,
+      860,
+      911,
+      957
+    ],
+    "output_size": [
+      105,
+      105
+    ],
+    "kept_components": 3,
+    "main_area": 4425
+  },
+  {
+    "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-22.png",
+    "sheet": "island-landmark-props-sheet.png",
+    "num": 22,
+    "old_bbox": [
+      941,
+      894,
+      1004,
+      953
+    ],
+    "new_source_bbox": [
+      936,
+      902,
+      996,
+      960
+    ],
+    "output_size": [
+      68,
+      66
+    ],
+    "kept_components": 2,
+    "main_area": 1208
+  }
+]

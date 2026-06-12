@@ -1,0 +1,9 @@
+{
+  "grass-autotile.png": "192x192, 3x3 64px autotile",
+  "path-autotile.png": "192x192, 3x3 64px autotile",
+  "water-tile.png": "64x64 seamless tile",
+  "biome-forest.png": "512x512 seamless biome background tile",
+  "biome-mine.png": "512x512 seamless biome background tile",
+  "biome-ruins.png": "512x512 seamless biome background tile",
+  "biome-coast.png": "512x512 seamless biome background tile"
+}

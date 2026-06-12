@@ -1,0 +1,1750 @@
+{
+  "island-cliffs-plateaus-sheet.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus-sheet.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus-sheet-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-01.png",
+        "bbox": [
+          42,
+          68,
+          515,
+          255
+        ],
+        "size": [
+          473,
+          187
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-02.png",
+        "bbox": [
+          533,
+          68,
+          752,
+          290
+        ],
+        "size": [
+          219,
+          222
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-03.png",
+        "bbox": [
+          770,
+          75,
+          908,
+          284
+        ],
+        "size": [
+          146,
+          217
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 1
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-04.png",
+        "bbox": [
+          912,
+          76,
+          1113,
+          290
+        ],
+        "size": [
+          209,
+          222
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 1
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-05.png",
+        "bbox": [
+          1131,
+          116,
+          1289,
+          293
+        ],
+        "size": [
+          158,
+          177
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-06.png",
+        "bbox": [
+          1315,
+          119,
+          1497,
+          294
+        ],
+        "size": [
+          182,
+          175
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-07.png",
+        "bbox": [
+          36,
+          307,
+          1506,
+          465
+        ],
+        "size": [
+          1470,
+          158
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-08.png",
+        "bbox": [
+          39,
+          497,
+          168,
+          611
+        ],
+        "size": [
+          129,
+          114
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-09.png",
+        "bbox": [
+          175,
+          497,
+          387,
+          614
+        ],
+        "size": [
+          212,
+          117
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-10.png",
+        "bbox": [
+          390,
+          497,
+          588,
+          611
+        ],
+        "size": [
+          198,
+          114
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-11.png",
+        "bbox": [
+          583,
+          498,
+          740,
+          612
+        ],
+        "size": [
+          157,
+          114
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-12.png",
+        "bbox": [
+          765,
+          494,
+          977,
+          619
+        ],
+        "size": [
+          212,
+          125
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-13.png",
+        "bbox": [
+          971,
+          501,
+          1072,
+          624
+        ],
+        "size": [
+          101,
+          123
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-14.png",
+        "bbox": [
+          1083,
+          492,
+          1232,
+          654
+        ],
+        "size": [
+          149,
+          162
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-15.png",
+        "bbox": [
+          1244,
+          497,
+          1365,
+          659
+        ],
+        "size": [
+          121,
+          162
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-16.png",
+        "bbox": [
+          1366,
+          498,
+          1474,
+          650
+        ],
+        "size": [
+          108,
+          152
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-17.png",
+        "bbox": [
+          37,
+          642,
+          307,
+          961
+        ],
+        "size": [
+          270,
+          319
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-18.png",
+        "bbox": [
+          315,
+          659,
+          537,
+          895
+        ],
+        "size": [
+          222,
+          236
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-19.png",
+        "bbox": [
+          548,
+          667,
+          757,
+          888
+        ],
+        "size": [
+          209,
+          221
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-20.png",
+        "bbox": [
+          781,
+          680,
+          935,
+          821
+        ],
+        "size": [
+          162,
+          149
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 1
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-21.png",
+        "bbox": [
+          942,
+          679,
+          1043,
+          824
+        ],
+        "size": [
+          109,
+          153
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 1
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-22.png",
+        "bbox": [
+          1074,
+          679,
+          1242,
+          874
+        ],
+        "size": [
+          168,
+          195
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-23.png",
+        "bbox": [
+          1250,
+          687,
+          1478,
+          856
+        ],
+        "size": [
+          228,
+          169
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-24.png",
+        "bbox": [
+          765,
+          843,
+          896,
+          977
+        ],
+        "size": [
+          131,
+          134
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-cliffs-plateaus/island-cliffs-plateaus-25.png",
+        "bbox": [
+          923,
+          831,
+          1027,
+          938
+        ],
+        "size": [
+          104,
+          107
+        ]
+      }
+    ]
+  },
+  "island-forest-rocks-flowers-sheet.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers-sheet.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers-sheet-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-01.png",
+        "bbox": [
+          20,
+          18,
+          671,
+          410
+        ],
+        "size": [
+          651,
+          392
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-02.png",
+        "bbox": [
+          241,
+          33,
+          316,
+          81
+        ],
+        "size": [
+          83,
+          48
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 2,
+        "recut_method": "source_bbox_partial_component"
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-03.png",
+        "bbox": [
+          706,
+          37,
+          891,
+          223
+        ],
+        "size": [
+          185,
+          186
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-04.png",
+        "bbox": [
+          893,
+          60,
+          1060,
+          222
+        ],
+        "size": [
+          175,
+          170
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 9
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-05.png",
+        "bbox": [
+          1078,
+          43,
+          1208,
+          216
+        ],
+        "size": [
+          138,
+          181
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 17
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-06.png",
+        "bbox": [
+          1230,
+          53,
+          1345,
+          214
+        ],
+        "size": [
+          123,
+          169
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 13
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-07.png",
+        "bbox": [
+          1358,
+          47,
+          1486,
+          229
+        ],
+        "size": [
+          128,
+          182
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-08.png",
+        "bbox": [
+          688,
+          240,
+          843,
+          363
+        ],
+        "size": [
+          155,
+          123
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-09.png",
+        "bbox": [
+          839,
+          250,
+          991,
+          364
+        ],
+        "size": [
+          152,
+          114
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-10.png",
+        "bbox": [
+          994,
+          251,
+          1135,
+          362
+        ],
+        "size": [
+          141,
+          111
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-11.png",
+        "bbox": [
+          1134,
+          265,
+          1265,
+          363
+        ],
+        "size": [
+          131,
+          98
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-12.png",
+        "bbox": [
+          1264,
+          260,
+          1383,
+          361
+        ],
+        "size": [
+          119,
+          101
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-13.png",
+        "bbox": [
+          1380,
+          254,
+          1509,
+          362
+        ],
+        "size": [
+          129,
+          108
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-14.png",
+        "bbox": [
+          699,
+          388,
+          773,
+          446
+        ],
+        "size": [
+          82,
+          66
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 9
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-15.png",
+        "bbox": [
+          801,
+          384,
+          872,
+          446
+        ],
+        "size": [
+          79,
+          70
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 10
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-16.png",
+        "bbox": [
+          901,
+          381,
+          967,
+          445
+        ],
+        "size": [
+          74,
+          72
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 9
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-17.png",
+        "bbox": [
+          984,
+          379,
+          1068,
+          448
+        ],
+        "size": [
+          92,
+          77
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 10
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-18.png",
+        "bbox": [
+          1091,
+          396,
+          1174,
+          450
+        ],
+        "size": [
+          91,
+          62
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 12
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-19.png",
+        "bbox": [
+          1197,
+          385,
+          1293,
+          455
+        ],
+        "size": [
+          104,
+          78
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 20
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-20.png",
+        "bbox": [
+          1315,
+          396,
+          1378,
+          443
+        ],
+        "size": [
+          71,
+          55
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 7
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-21.png",
+        "bbox": [
+          1394,
+          381,
+          1488,
+          457
+        ],
+        "size": [
+          102,
+          84
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 7
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-22.png",
+        "bbox": [
+          32,
+          423,
+          171,
+          534
+        ],
+        "size": [
+          139,
+          111
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-23.png",
+        "bbox": [
+          184,
+          432,
+          328,
+          536
+        ],
+        "size": [
+          144,
+          104
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-24.png",
+        "bbox": [
+          336,
+          425,
+          462,
+          541
+        ],
+        "size": [
+          126,
+          116
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-25.png",
+        "bbox": [
+          491,
+          422,
+          637,
+          541
+        ],
+        "size": [
+          146,
+          119
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-26.png",
+        "bbox": [
+          662,
+          456,
+          795,
+          559
+        ],
+        "size": [
+          133,
+          103
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-27.png",
+        "bbox": [
+          808,
+          453,
+          947,
+          561
+        ],
+        "size": [
+          139,
+          108
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-28.png",
+        "bbox": [
+          997,
+          475,
+          1157,
+          663
+        ],
+        "size": [
+          160,
+          188
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-29.png",
+        "bbox": [
+          1159,
+          478,
+          1286,
+          671
+        ],
+        "size": [
+          127,
+          193
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-30.png",
+        "bbox": [
+          19,
+          548,
+          212,
+          705
+        ],
+        "size": [
+          193,
+          157
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-31.png",
+        "bbox": [
+          1295,
+          490,
+          1414,
+          657
+        ],
+        "size": [
+          127,
+          175
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 6
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-32.png",
+        "bbox": [
+          1401,
+          504,
+          1510,
+          611
+        ],
+        "size": [
+          117,
+          115
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 5
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-33.png",
+        "bbox": [
+          214,
+          568,
+          364,
+          688
+        ],
+        "size": [
+          150,
+          120
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-34.png",
+        "bbox": [
+          366,
+          567,
+          552,
+          700
+        ],
+        "size": [
+          186,
+          133
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-35.png",
+        "bbox": [
+          560,
+          578,
+          708,
+          697
+        ],
+        "size": [
+          148,
+          119
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-36.png",
+        "bbox": [
+          718,
+          581,
+          883,
+          693
+        ],
+        "size": [
+          165,
+          112
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-37.png",
+        "bbox": [
+          888,
+          575,
+          999,
+          681
+        ],
+        "size": [
+          111,
+          106
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-38.png",
+        "bbox": [
+          36,
+          718,
+          114,
+          776
+        ],
+        "size": [
+          86,
+          66
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 2
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-39.png",
+        "bbox": [
+          186,
+          722,
+          268,
+          764
+        ],
+        "size": [
+          90,
+          50
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 2
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-forest-rocks-flowers/island-forest-rocks-flowers-40.png",
+        "bbox": [
+          1080,
+          706,
+          1154,
+          764
+        ],
+        "size": [
+          82,
+          66
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 8
+      }
+    ]
+  },
+  "island-path-water-sheet.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water-sheet.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water-sheet-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-01.png",
+        "bbox": [
+          47,
+          43,
+          221,
+          202
+        ],
+        "size": [
+          174,
+          159
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-02.png",
+        "bbox": [
+          271,
+          43,
+          388,
+          207
+        ],
+        "size": [
+          117,
+          164
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-03.png",
+        "bbox": [
+          434,
+          46,
+          580,
+          205
+        ],
+        "size": [
+          146,
+          159
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-04.png",
+        "bbox": [
+          638,
+          48,
+          844,
+          204
+        ],
+        "size": [
+          206,
+          156
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-05.png",
+        "bbox": [
+          866,
+          21,
+          1104,
+          217
+        ],
+        "size": [
+          238,
+          196
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-06.png",
+        "bbox": [
+          1117,
+          13,
+          1366,
+          228
+        ],
+        "size": [
+          249,
+          215
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-07.png",
+        "bbox": [
+          48,
+          219,
+          218,
+          384
+        ],
+        "size": [
+          170,
+          165
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-08.png",
+        "bbox": [
+          265,
+          219,
+          381,
+          384
+        ],
+        "size": [
+          116,
+          165
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-09.png",
+        "bbox": [
+          432,
+          220,
+          586,
+          385
+        ],
+        "size": [
+          154,
+          165
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-10.png",
+        "bbox": [
+          640,
+          226,
+          841,
+          386
+        ],
+        "size": [
+          201,
+          160
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-11.png",
+        "bbox": [
+          867,
+          216,
+          1096,
+          401
+        ],
+        "size": [
+          229,
+          185
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-12.png",
+        "bbox": [
+          1114,
+          266,
+          1238,
+          355
+        ],
+        "size": [
+          124,
+          89
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-13.png",
+        "bbox": [
+          1259,
+          273,
+          1371,
+          358
+        ],
+        "size": [
+          112,
+          85
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-14.png",
+        "bbox": [
+          1394,
+          293,
+          1506,
+          363
+        ],
+        "size": [
+          112,
+          70
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-15.png",
+        "bbox": [
+          226,
+          399,
+          404,
+          514
+        ],
+        "size": [
+          178,
+          115
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-16.png",
+        "bbox": [
+          424,
+          396,
+          554,
+          535
+        ],
+        "size": [
+          130,
+          139
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-17.png",
+        "bbox": [
+          562,
+          396,
+          634,
+          544
+        ],
+        "size": [
+          72,
+          148
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-18.png",
+        "bbox": [
+          54,
+          405,
+          175,
+          514
+        ],
+        "size": [
+          121,
+          109
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-19.png",
+        "bbox": [
+          673,
+          421,
+          883,
+          491
+        ],
+        "size": [
+          210,
+          70
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-20.png",
+        "bbox": [
+          895,
+          418,
+          1104,
+          490
+        ],
+        "size": [
+          209,
+          72
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-21.png",
+        "bbox": [
+          1117,
+          420,
+          1298,
+          492
+        ],
+        "size": [
+          181,
+          72
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-22.png",
+        "bbox": [
+          1323,
+          411,
+          1502,
+          497
+        ],
+        "size": [
+          179,
+          86
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-23.png",
+        "bbox": [
+          265,
+          537,
+          437,
+          702
+        ],
+        "size": [
+          172,
+          165
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-24.png",
+        "bbox": [
+          443,
+          556,
+          602,
+          716
+        ],
+        "size": [
+          159,
+          160
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-25.png",
+        "bbox": [
+          653,
+          502,
+          825,
+          590
+        ],
+        "size": [
+          172,
+          88
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-26.png",
+        "bbox": [
+          864,
+          510,
+          993,
+          609
+        ],
+        "size": [
+          129,
+          99
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-27.png",
+        "bbox": [
+          999,
+          557,
+          1066,
+          610
+        ],
+        "size": [
+          67,
+          53
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-28.png",
+        "bbox": [
+          1074,
+          502,
+          1159,
+          576
+        ],
+        "size": [
+          85,
+          74
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-29.png",
+        "bbox": [
+          1221,
+          500,
+          1404,
+          664
+        ],
+        "size": [
+          183,
+          164
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-30.png",
+        "bbox": [
+          33,
+          560,
+          251,
+          717
+        ],
+        "size": [
+          218,
+          157
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-31.png",
+        "bbox": [
+          622,
+          607,
+          860,
+          727
+        ],
+        "size": [
+          238,
+          120
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-32.png",
+        "bbox": [
+          881,
+          625,
+          1028,
+          725
+        ],
+        "size": [
+          147,
+          100
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-33.png",
+        "bbox": [
+          1122,
+          592,
+          1182,
+          639
+        ],
+        "size": [
+          60,
+          47
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-34.png",
+        "bbox": [
+          1049,
+          640,
+          1160,
+          720
+        ],
+        "size": [
+          111,
+          80
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-35.png",
+        "bbox": [
+          1193,
+          668,
+          1311,
+          721
+        ],
+        "size": [
+          126,
+          61
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 4
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-36.png",
+        "bbox": [
+          37,
+          744,
+          221,
+          928
+        ],
+        "size": [
+          184,
+          184
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-37.png",
+        "bbox": [
+          260,
+          744,
+          432,
+          924
+        ],
+        "size": [
+          172,
+          180
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-38.png",
+        "bbox": [
+          457,
+          745,
+          628,
+          975
+        ],
+        "size": [
+          171,
+          230
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-39.png",
+        "bbox": [
+          647,
+          752,
+          835,
+          950
+        ],
+        "size": [
+          188,
+          198
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-path-water/island-path-water-40.png",
+        "bbox": [
+          858,
+          767,
+          1104,
+          982
+        ],
+        "size": [
+          254,
+          223
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 46
+      }
+    ]
+  },
+  "island-landmark-props-sheet.png": {
+    "sheet": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props-sheet.png",
+    "source": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props-sheet-source.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "components": [
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-01.png",
+        "bbox": [
+          41,
+          27,
+          319,
+          336
+        ],
+        "size": [
+          278,
+          309
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-02.png",
+        "bbox": [
+          352,
+          47,
+          521,
+          309
+        ],
+        "size": [
+          169,
+          262
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-03.png",
+        "bbox": [
+          1050,
+          21,
+          1259,
+          326
+        ],
+        "size": [
+          209,
+          305
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-04.png",
+        "bbox": [
+          565,
+          137,
+          709,
+          310
+        ],
+        "size": [
+          152,
+          181
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 1
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-05.png",
+        "bbox": [
+          826,
+          158,
+          948,
+          312
+        ],
+        "size": [
+          122,
+          154
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-06.png",
+        "bbox": [
+          1280,
+          145,
+          1486,
+          330
+        ],
+        "size": [
+          206,
+          185
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-07.png",
+        "bbox": [
+          716,
+          195,
+          822,
+          310
+        ],
+        "size": [
+          114,
+          123
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 1
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-08.png",
+        "bbox": [
+          942,
+          195,
+          1028,
+          304
+        ],
+        "size": [
+          86,
+          109
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-09.png",
+        "bbox": [
+          38,
+          394,
+          351,
+          537
+        ],
+        "size": [
+          313,
+          143
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-10.png",
+        "bbox": [
+          394,
+          383,
+          661,
+          569
+        ],
+        "size": [
+          267,
+          186
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-11.png",
+        "bbox": [
+          708,
+          385,
+          895,
+          557
+        ],
+        "size": [
+          187,
+          172
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-12.png",
+        "bbox": [
+          934,
+          367,
+          1133,
+          563
+        ],
+        "size": [
+          207,
+          204
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 9
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-13.png",
+        "bbox": [
+          1184,
+          337,
+          1409,
+          596
+        ],
+        "size": [
+          225,
+          259
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-14.png",
+        "bbox": [
+          53,
+          582,
+          407,
+          799
+        ],
+        "size": [
+          354,
+          217
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-15.png",
+        "bbox": [
+          472,
+          591,
+          642,
+          795
+        ],
+        "size": [
+          170,
+          204
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-16.png",
+        "bbox": [
+          739,
+          585,
+          908,
+          798
+        ],
+        "size": [
+          169,
+          213
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-17.png",
+        "bbox": [
+          987,
+          627,
+          1238,
+          790
+        ],
+        "size": [
+          251,
+          163
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-18.png",
+        "bbox": [
+          41,
+          802,
+          565,
+          997
+        ],
+        "size": [
+          524,
+          195
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-19.png",
+        "bbox": [
+          614,
+          838,
+          803,
+          968
+        ],
+        "size": [
+          189,
+          130
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-20.png",
+        "bbox": [
+          814,
+          860,
+          911,
+          957
+        ],
+        "size": [
+          105,
+          105
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 3
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-21.png",
+        "bbox": [
+          1023,
+          850,
+          1144,
+          977
+        ],
+        "size": [
+          121,
+          127
+        ]
+      },
+      {
+        "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/terrain/island-kit/island-landmark-props/island-landmark-props-22.png",
+        "bbox": [
+          936,
+          902,
+          996,
+          960
+        ],
+        "size": [
+          68,
+          66
+        ],
+        "recut_safety_border_px": 4,
+        "recut_kept_components": 2
+      }
+    ]
+  }
+}

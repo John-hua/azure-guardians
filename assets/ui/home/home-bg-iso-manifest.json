@@ -1,0 +1,42 @@
+{
+  "file": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/home/home-bg-iso.png",
+  "source_v2": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/home/home-bg-iso-source-v2.png",
+  "backup_small_v1": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/home/home-bg-iso-small-v1.png",
+  "preview": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/home/home-bg-iso-preview.png",
+  "size": [
+    1920,
+    2200
+  ],
+  "source_size": [
+    856,
+    1838
+  ],
+  "trim_bbox": [
+    3,
+    16,
+    852,
+    1838
+  ],
+  "placed_size": [
+    1500,
+    2200
+  ],
+  "placed_xy": [
+    210,
+    0
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "visible_magenta_key_pixels": 0,
+  "notes": "V2 larger composition: islands fill most of the 1920 canvas width.",
+  "ui_scale_adjustment": "2026-05-31: horizontally expanded final alpha subject to 1500px width so the home map does not look too small on a 1920px canvas.",
+  "backup_v2_narrow": "/Users/a0000/Documents/vibe coding/Game/2drpgGame/assets/ui/home/home-bg-iso-v2-narrow.png",
+  "bbox_after_adjustment": [
+    210,
+    0,
+    1710,
+    2200
+  ]
+}
