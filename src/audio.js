@@ -217,7 +217,7 @@ export const Sfx = {
 
   // 🌟 圣光爆 — 明亮神圣轰击: 轻 sub + 高亮和弦绽放 + 1s 钟鸣圣辉长尾
   holyBurst() {
-    if (playSkillSfx('holyburst')) return;
+    if (playSkillSfx('holyburst', 0.4)) return;
     subBoom({ from: 150, to: 55, dur: 0.3, vol: 0.22 });
     // 大调和弦 — 滤波保持明亮不收死
     epicLayer({ freq: 523, dur: 0.8, vol: 0.13, type: 'sawtooth', lp: 5200, lpEnd: 2800, attack: 0.02 });
@@ -232,7 +232,7 @@ export const Sfx = {
 
   // 💜 奥术冲击 — 魔刃撕裂: 明亮俯冲 + 长撕裂 + 0.8s 金属振铃尾
   arcaneBolt() {
-    if (playSkillSfx('arcanebolt')) return;
+    if (playSkillSfx('arcanebolt', 0.4)) return;
     // 俯冲保留, 但滤波提亮
     epicLayer({ freq: 420, slideTo: 110, dur: 0.5, vol: 0.15, type: 'sawtooth', detune: 22, lp: 3400, lpEnd: 1600 });
     // 撕裂空气拉长
@@ -245,7 +245,7 @@ export const Sfx = {
 
   // ⚡ 天罚雷 — 亮裂雷击: 高频炸裂 + 适度 sub + 1.2s 雷尾滚动衰减
   thunderBolt() {
-    if (playSkillSfx('thunderbolt')) return;
+    if (playSkillSfx('thunderbolt', 0.4)) return;
     // 炸裂更亮更脆
     airBurst({ dur: 0.15, vol: 0.32, bpStart: 9000, bpEnd: 1500, q: 0.7 });
     subBoom({ from: 150, to: 40, dur: 0.45, vol: 0.3 });
@@ -259,7 +259,7 @@ export const Sfx = {
 
   // 🔥 烈焰柱 — 火山喷发: 亮 whoosh 升腾 + 咆哮长尾 + 1s 余焰
   flamePillar() {
-    if (playSkillSfx('flamepillar')) return;
+    if (playSkillSfx('flamepillar', 0.4)) return;
     subBoom({ from: 115, to: 45, dur: 0.4, vol: 0.26 });
     // 升腾 whoosh — 扫得更高更亮
     airBurst({ dur: 0.55, vol: 0.24, bpStart: 400, bpEnd: 3200, q: 0.9 });
@@ -274,7 +274,7 @@ export const Sfx = {
 
   // ❄️ 寒冰爆 — 寒霜降临: 轻 sub + 玻璃绽裂 + 1s 冰晶风铃长尾
   frostFall() {
-    if (playSkillSfx('frostfall')) return;
+    if (playSkillSfx('frostfall', 0.4)) return;
     subBoom({ from: 105, to: 50, dur: 0.28, vol: 0.2 });
     // 冰晶绽裂 — 高频全开
     epicLayer({ freq: 1568, dur: 0.6, vol: 0.1, type: 'triangle', detune: 18, lp: 9000, lpEnd: 5000, attack: 0.008 });
