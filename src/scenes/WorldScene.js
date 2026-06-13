@@ -29,7 +29,7 @@ import { Editor } from '../editor.js?v=3';
 
 // 排行榜：默认本地（localStorage）；要联网实时 → 把 REMOTE_LEADERBOARD_URL 改成你的后端地址
 // 后端协议：POST /submit (body=JSON entry)  +  GET /top?n=10 (返回 entry 数组按分降序)
-const REMOTE_LEADERBOARD_URL = null;
+const REMOTE_LEADERBOARD_URL = '/api';
 import { Sfx, resumeAudio, startMusic, toggleMute } from '../audio.js?v=music1';
 
 // 单位精灵原点在中心，脚底约在中心下方此距离 → 用脚底做深度排序

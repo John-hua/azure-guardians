@@ -848,7 +848,7 @@ export default class HomeScene extends Phaser.Scene {
   }
 
   _loadTop3() {
-    const lb = new Leaderboard({ remoteEndpoint: null });
+    const lb = new Leaderboard({ remoteEndpoint: '/api' });
     lb.getTop(5).then((top) => {
       const el = document.getElementById('hb-lb-list');
       if (!el) return;
